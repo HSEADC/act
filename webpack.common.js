@@ -8,13 +8,12 @@ const path = require('path')
 
 module.exports = {
   entry: {
-    index: './src/index.js',
-    page: './src/page.jsx'
+    index: './src/index.js'
   },
   output: {
     filename: '[name].js',
-    path: path.resolve(__dirname, 'docs')
-    // clean: true
+    path: path.resolve(__dirname, 'docs'),
+    clean: true
   },
   module: {
     rules: [
@@ -54,7 +53,7 @@ module.exports = {
         type: 'asset/source'
       },
       {
-        test: /\.(png|jpg|jpeg|gif|svg)$/i,
+        test: /\.(png|jpg|jpeg|gif|svg|webp)$/i,
         type: 'asset/resource',
         generator: {
           filename: 'images/[hash][ext][query]'
@@ -77,21 +76,18 @@ module.exports = {
 
     // Landing page
     new HtmlWebpackPlugin({
-      hash: true,
-      scriptLoading: 'blocking',
       template: './src/index.html',
-      filename: './index.html',
-      chunks: ['index']
+      filename: './index.html'
     }),
 
     // Internal pages
-    new HtmlWebpackPlugin({
-      hash: true,
-      scriptLoading: 'blocking',
-      template: './src/pages/page.html',
-      filename: './pages/page.html',
-      chunks: ['page']
-    }),
+    // new HtmlWebpackPlugin({
+    //   hash: true,
+    //   scriptLoading: 'blocking',
+    //   template: './src/pages/page.html',
+    //   filename: './pages/page.html',
+    //   chunks: ['page']
+    // }),
 
     // Partials
     new HtmlWebpackPartialsPlugin([
