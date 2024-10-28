@@ -74,6 +74,7 @@ module.exports = {
       chunkFilename: '[id].css'
     }),
 
+
     // Landing page
     new HtmlWebpackPlugin({
       template: './src/index.html',
@@ -93,9 +94,26 @@ module.exports = {
   
       //стрвницы разделов
       new HtmlWebpackPlugin({
-        template: './src/library_articles/article.html',
-        filename: './library_articles/article.html'
+        template: './src/meo.html',
+        filename: './meo.html'
       }),
+
+      new HtmlWebpackPlugin({
+        template: './src/about.html',
+        filename: './about.html'
+      }),
+
+
+      new HtmlWebpackPlugin({
+        template: './src/retrospection_articles/artcles2.html',
+        filename: './retrospection_articles/artcles2.html'
+        }),
+        
+
+   new HtmlWebpackPlugin({
+    template: './src/retrospection_articles/artcles2.html',
+    filename: './retrospection_articles/artcles2.html'
+    }),
     
     // Internal pages
     // new HtmlWebpackPlugin({
