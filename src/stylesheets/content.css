@@ -77,6 +77,10 @@ link {
   background-color: white;
   color: rgb(24, 24, 27);
 }
+
+#active:visited {
+  color: black;
+}
 /* */
 .image-wrapper {
   display: flex;
@@ -92,6 +96,8 @@ link {
   flex: 1 0 0;
   padding: 16px;
   background-color: rgb(39, 39, 42);
+  background-color: url('../../docs/images/dance.gif');
+  background-size: cover;
   border-radius: 4px;
 }
 /**/
