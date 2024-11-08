@@ -80,10 +80,9 @@ module.exports = {
       filename: './index.html'
     }),
 
-    // О нас
     new HtmlWebpackPlugin({
-      template: './src/aboutus.html',
-      filename: './aboutus.html'
+      template: './src/gallery.html',
+      filename: './gallery.html'
     }),
 
     // Публикации

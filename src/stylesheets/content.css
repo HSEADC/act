@@ -12,6 +12,7 @@ h1 {
 a {
   text-decoration: none;
 }
+
 body {
   background-color: rgb(24, 24, 27);
   color: white;
@@ -72,7 +73,7 @@ link {
   color: white;
 }
 
-.active {
+#active {
   background-color: white;
   color: rgb(24, 24, 27);
 }
@@ -110,6 +111,7 @@ link {
   flex-direction: column;
   gap: 16px;
   font-size: 24px;
+  border-radius: 4px;
 }
 
 .form-wrapper {
@@ -119,7 +121,8 @@ link {
   flex-direction: row;
   width: 100%;
   border-radius: 4px;
-  gap: 32px 16px;
+  padding: 32px 16px;
+  gap: 16px;
 }
 /**/
 .input-field {
@@ -131,6 +134,7 @@ link {
   color: white;
   justify-content: center;
   align-items: center;
+  text-align: left;
   padding: 0px 20px;
   font-size: 24px;
 }
