@@ -5,7 +5,8 @@
 }
 
 h1 {
-  color: blue;
+  font-size: 96px;
+  font-weight: normal;
 }
 
 a {
@@ -68,6 +69,7 @@ link {
   text-align: center;
   padding: 10px 20px;
   border-radius: 2px;
+  color: white;
 }
 
 .active {
@@ -91,3 +93,29 @@ link {
   background-color: rgb(39, 39, 42);
   border-radius: 4px;
 }
+/**/
+
+.form-part {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 0px 16px;
+  gap: 16px;
+}
+
+.form-headder {
+  background-color: rgb(39, 39, 42);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.form-wrapper {
+  background-color: rgb(39, 39, 42);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+/**/
