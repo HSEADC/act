@@ -34,7 +34,7 @@ link {
   color: #fff;
   background-color: transparent;
   border: 2px solid #fff;
-  border-radius: 5px;
+  border-radius: 4px;
   cursor: pointer;
   transition: border-color 0.3s ease;
 }
@@ -118,6 +118,7 @@ link {
   display: flex;
   flex-direction: row;
   width: 100%;
+  border-radius: 4px;
   gap: 32px 16px;
 }
 /**/
