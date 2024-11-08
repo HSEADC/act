@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+}
+
+h1 {
+  color: blue;
+}
+
+body {
+  background-color: rgb(24, 24, 27);
+  color: white;
+}
+
+link {
+  color: white;
+}
+
+.hero-wrapper {
+  height: 100dvh;
+  width: 100dvw;
+}
+
+.small-button-outlined {
+  font-size: 32px;
+}
