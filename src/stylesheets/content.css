@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  font-family: sans-serif;
 }
 
 h1 {
@@ -20,6 +21,31 @@ link {
   width: 100dvw;
 }
 
-.small-button-outlined {
-  font-size: 32px;
+.outlined-button {
+  padding: 10px 20px; /* Adjust padding as needed */
+  font-size: 16px; /* Font size */
+  color: #fff; /* Text color */
+  background-color: transparent; /* No background color */
+  border: 2px solid #fff; /* White border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: border-color 0.3s ease; /* Smooth transition for border color */
+}
+
+.outlined-button:hover {
+  border-color: #ddd;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  width: 100;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.segment-control {
+  display: flex;
+  flex-direction: row;
 }
