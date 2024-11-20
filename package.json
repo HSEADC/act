@@ -2,8 +2,8 @@
   "name": "static-site-boilerplate",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github.com:annkomkova/static-site-boilerplate.git",
-  "author": "Anna Komkova <ann.komkova98@gmail.com>",
+  "repository": "git@github.com:HSEADC/act.git",
+  "author": "Inner Mongolia <yuexrender@gmail.com>",
   "license": "MIT",
   "scripts": {
     "start": "webpack serve --open --config webpack.dev.js",
