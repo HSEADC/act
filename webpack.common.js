@@ -86,6 +86,11 @@ module.exports = {
     }),
 
     new HtmlWebpackPlugin({
+      template: './src/articlemenu.html',
+      filename: './articlemenu.html'
+    }),
+
+    new HtmlWebpackPlugin({
       template: './src/styleguide.html',
       filename: './styleguide.html'
     }),
