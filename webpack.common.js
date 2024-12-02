@@ -95,6 +95,21 @@ module.exports = {
       filename: './articles.html'
     }),
 
+    new HtmlWebpackPlugin({
+      template: './src/articles/breakdowns/breakdown.html',
+      filename: './articles/breakdowns/breakdown.html'
+    }),
+
+    new HtmlWebpackPlugin({
+      template: './src/articles/reviews/review.html',
+      filename: './articles/reviews/review.html'
+    }),
+
+    new HtmlWebpackPlugin({
+      template: './src/articles.html',
+      filename: './articles.html'
+    }),
+
     // Internal pages
     // new HtmlWebpackPlugin({
     //   hash: true,
