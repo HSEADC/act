@@ -91,12 +91,6 @@ module.exports = {
       filename: './articles/article.html'
     }),
 
-    //
-    new HtmlWebpackPlugin({
-      template: './src/styleguide.html',
-      filename: './styleguide.html'
-    }),
-
     // Internal pages
     // new HtmlWebpackPlugin({
     //   hash: true,
