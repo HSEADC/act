@@ -86,19 +86,13 @@ module.exports = {
     }),
 
     new HtmlWebpackPlugin({
-      template: './src/articlemenu.html',
-      filename: './articlemenu.html'
-    }),
-
-    new HtmlWebpackPlugin({
       template: './src/styleguide.html',
       filename: './styleguide.html'
     }),
 
-    // Публикации
     new HtmlWebpackPlugin({
-      template: './src/articles/article.html',
-      filename: './articles/article.html'
+      template: './src/articles.html',
+      filename: './articles.html'
     }),
 
     // Internal pages
