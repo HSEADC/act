@@ -74,7 +74,7 @@ module.exports = {
       chunkFilename: '[id].css'
     }),
 
-    // Landing page
+    // Главная
     new HtmlWebpackPlugin({
       template: './src/index.html',
       filename: './index.html'
@@ -89,6 +89,12 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/articles/article.html',
       filename: './articles/article.html'
+    }),
+
+    //
+    new HtmlWebpackPlugin({
+      template: './src/styleguide.html',
+      filename: './styleguide.html'
     }),
 
     // Internal pages
