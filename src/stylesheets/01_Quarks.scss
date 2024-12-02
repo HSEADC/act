@@ -3,67 +3,33 @@
 /* VARIABLES START */
 
 /*Breakpoints*/
-@media and (max-width: 480px) {
-  :root {
-    font-size: 1.25vw;
-  }
-}
-
-@media (min-width: 480px) and (max-width: 640px) {
-  :root {
-    font-size: 1.25vw;
-  }
-}
-
-@media (min-width: 640px) and (max-width: 960px) {
-  :root {
-    font-size: 1.25vw;
-  }
-}
-
-@media (min-width: 960px) and (max-width: 1200px) {
-  :root {
-    font-size: 1.25vw;
-  }
-}
-@media (min-width: 1200px) {
-  :root {
-    font-size: 16px;
-  }
-}
-
-@media (min-width: 2560px) {
-  :root {
-    font-size: 1.25vw;
-  }
-}
 
 // Spacing
-$space-0: 0;
-$space-1: 1;
-$space-025: 2;
-$space-050: 4;
-$space-100: 8;
-$space-125: 10;
-$space-150: 12;
-$space-200: 16;
-$space-250: 20;
-$space-300: 24;
-$space-350: 28;
-$space-400: 32;
-$space-450: 36;
-$space-500: 40;
-$space-600: 48;
-$space-700: 56;
-$space-800: 64;
-$space-900: 72;
-$space-1000: 80;
-$space-1100: 88;
-$space-1200: 96;
-$space-1400: 112;
-$space-1600: 128;
-$space-1800: 144;
-$space-2000: 160;
+$space-0: 0rem;
+$space-1: 0.0625rem;
+$space-025: 0.125rem;
+$space-050: 0.25rem;
+$space-100: 0.5rem;
+$space-125: 0.625rem;
+$space-150: 0.75rem;
+$space-200: 1rem;
+$space-250: 1.25rem;
+$space-300: 1.5rem;
+$space-350: 1.75rem;
+$space-400: 2rem;
+$space-450: 2.25rem;
+$space-500: 2.5rem;
+$space-600: 3rem;
+$space-700: 3.5rem;
+$space-800: 4rem;
+$space-900: 4.5rem;
+$space-1000: 5rem;
+$space-1100: 5.5rem;
+$space-1200: 6rem;
+$space-1400: 7rem;
+$space-1600: 8rem;
+$space-1800: 9rem;
+$space-2000: 10rem;
 
 // zinc
 $zinc-50: #fafafa;
