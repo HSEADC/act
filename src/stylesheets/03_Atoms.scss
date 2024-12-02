@@ -1,44 +1,78 @@
 @import './01_Quarks.scss';
 
-/* TYPE SCALE START*/
+* {
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
 
+/* TYPE SCALE START*/
 .A_Display {
+  font-size: $space-900;
+  line-height: $space-900;
 }
 
 .A_Large-title {
+  font-size: $space-550;
+  line-height: $space-560;
 }
 
 .A_Title-1 {
+  font-size: $space-480;
+  line-height: $space-480;
 }
 
 .A_Title-2 {
+  font-size: $space-360;
+  line-height: $space-400;
 }
 
 .A_Title-3 {
+  font-size: $space-280;
+  line-height: $space-320;
 }
 
 .A_Subtitle-1 {
+  font-size: $space-240;
+  line-height: $space-280;
 }
 
 .A_Subtitle-2 {
+  font-size: $space-200;
+  line-height: $space-240;
 }
 
 .A_Subtitle-2-stronger {
+  font-size: $space-200;
+  line-height: $space-240;
+  font-weight: bold;
 }
 
 .A_Body {
+  font-size: $space-160;
+  line-height: $space-200;
 }
 
 .A_Body-stronger {
+  font-size: $space-160;
+  line-height: $space-200;
+  font-weight: bold;
 }
 
 .A_Caption-1 {
+  font-size: $space-120;
+  line-height: $space-160;
 }
 
 .A_Caption-2 {
+  font-size: $space-100;
+  line-height: $space-120;
 }
 
 .A_Caption-2-stronger {
+  font-size: $space-100;
+  line-height: $space-120;
+  font-weight: bold;
 }
 
 /* TYPE SCALE END*/
