@@ -85,6 +85,11 @@ module.exports = {
       filename: './gallery.html'
     }),
 
+    new HtmlWebpackPlugin({
+      template: './src/styleguide.html',
+      filename: './styleguide.html'
+    }),
+
     // Публикации
     new HtmlWebpackPlugin({
       template: './src/articles/article.html',
