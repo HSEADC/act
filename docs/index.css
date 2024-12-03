@@ -608,7 +608,6 @@
   padding: var(--space-100);
   flex-grow: 1;
   flex-direction: column;
-  height: 100%;
 }
 
 
@@ -712,4 +711,4 @@
   --red-950: #4b0804;
 }
 
-.T_Hero{width:100dvw;height:100dvh}.T_Hero-image{display:flex;flex-grow:1;height:100%}
+.T_Hero{width:100dvw;height:100vh}.T_Hero-image-wrapper{flex-direction:column;display:flex;flex-grow:1;background-color:brown;height:100%;align-items:end;justify-content:start}.T_Hero-image{display:flex;flex-direction:row;flex-grow:1;background-color:red;align-items:bottom;justify-content:start}
