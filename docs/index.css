@@ -1,4 +1,6 @@
-* {
+*,
+*::before,
+*::after {
   margin: 0;
   box-sizing: border-box;
   overflow: hidden;
@@ -97,7 +99,9 @@
   --red-950: #4b0804;
 }
 
-* {
+*,
+*::before,
+*::after {
   margin: 0;
   box-sizing: border-box;
   overflow: hidden;
@@ -213,7 +217,9 @@
   flex-direction: row;
 }
 
-* {
+*,
+*::before,
+*::after {
   margin: 0;
   box-sizing: border-box;
   overflow: hidden;
@@ -391,7 +397,9 @@
   justify-content: start;
 }
 
-* {
+*,
+*::before,
+*::after {
   margin: 0;
   box-sizing: border-box;
   overflow: hidden;
@@ -502,7 +510,9 @@
   align-items: center;
 }
 
-* {
+*,
+*::before,
+*::after {
   margin: 0;
   box-sizing: border-box;
   overflow: hidden;
@@ -612,7 +622,9 @@
 
 
 
-* {
+*,
+*::before,
+*::after {
   margin: 0;
   box-sizing: border-box;
   overflow: hidden;
