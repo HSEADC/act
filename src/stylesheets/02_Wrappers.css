@@ -1,8 +1,16 @@
 .W_Navigation {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  align-items: start;
+  justify-content: start;
   padding: var(--space-100);
   border-radius: var(--space-025);
   gap: var(--space-200);
+  color: var(--zinc-100);
+}
+
+.W_Card-wrapper {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  flex-direction: row;
 }

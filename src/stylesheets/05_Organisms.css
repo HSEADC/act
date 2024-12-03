@@ -1,0 +1,9 @@
+.O_Card {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  padding: var(--space-100);
+  flex-grow: 1;
+  flex-direction: column;
+  height: 100%;
+}

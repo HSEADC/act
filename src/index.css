@@ -5,3 +5,9 @@
   width: 100dvw;
   height: 100dvh;
 }
+
+.T_Hero-image {
+  display: flex;
+  flex-grow: 1;
+  height: 100%;
+}
