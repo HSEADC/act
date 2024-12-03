@@ -1,3 +1,5 @@
+@import './01_Quarks.css';
+
 .O_Card {
   display: flex;
   align-items: start;

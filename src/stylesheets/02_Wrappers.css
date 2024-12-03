@@ -1,3 +1,5 @@
+@import './01_Quarks.css';
+
 .W_Navigation {
   display: flex;
   align-items: start;

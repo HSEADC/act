@@ -1,3 +1,5 @@
+@import './01_Quarks.css';
+
 .M_Navigation {
   padding: var(--space-200);
   display: flex;
