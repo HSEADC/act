@@ -14,6 +14,9 @@
 }
 
 .A_Large-title {
+  font-family: 'PragmaticaBook';
+  font-size: var(--space-700);
+  line-height: var(--space-700);
 }
 
 .A_Title-1 {
