@@ -1,13 +1,10 @@
-/* GLOBAL */
 * {
   margin: 0;
   box-sizing: border-box;
   overflow: hidden;
   font-family: sans-serif;
 }
-/* GLOBAL */
 
-/* Breakpoints */
 @media (max-width: 480px) {
   :root {
     font-size: 1.25vw;
@@ -43,9 +40,7 @@
     font-size: 1.25vw;
   }
 }
-/* */
 
-/* Spacing */
 :root {
   --space-0: 0rem;
   --space-1: 0.0625rem;
@@ -74,7 +69,6 @@
   --space-2000: 10rem;
 }
 
-/* Zinc */
 :root {
   --zinc-50: #fafafa;
   --zinc-100: #f4f4f5;
@@ -89,7 +83,6 @@
   --zinc-950: #09090b;
 }
 
-/* Red */
 :root {
   --red-50: #fff2f1;
   --red-100: #ffe1df;
@@ -103,4 +96,3 @@
   --red-900: #881a14;
   --red-950: #4b0804;
 }
-/* VARIABLES END */
