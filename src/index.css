@@ -1,2 +1,7 @@
 @import './stylesheets/00_DesignSystem.css';
 @import './stylesheets/01_Quarks.css';
+
+.T_Hero {
+  width: 100dvw;
+  height: 100dvh;
+}

@@ -1,16 +1,18 @@
 @import '01_Quarks.css';
 
 @font-face {
-  font-family: 'PragmaticaBook';
+  font-family: 'PragmaticaBook', sans-serif;
   src: url('../font/Pragmatica-Book.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
 }
 
 .A_Display {
-  font-family: 'PragmaticaBook';
+  font-family: 'PragmaticaBook', sans-serif;
+  font-weight: normal;
   font-size: var(--space-900);
   line-height: var(--space-900);
+  padding-bottom: var(--space-200);
 }
 
 .A_Large-title {
