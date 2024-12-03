@@ -16,42 +16,53 @@
 }
 
 .A_Large-title {
-  font-family: 'PragmaticaBook';
+  font-family: 'PragmaticaBook', sans-serif;
   font-size: var(--space-700);
   line-height: var(--space-700);
 }
 
 .A_Title-1 {
+  font-family: 'PragmaticaBook', sans-serif;
 }
 
 .A_Title-2 {
+  font-family: 'PragmaticaBook', sans-serif;
 }
 
 .A_Title-3 {
+  font-family: 'PragmaticaBook', sans-serif;
 }
 
 .A_Subtitle-1 {
+  font-family: 'PragmaticaBook', sans-serif;
 }
 
 .A_Subtitle-2 {
+  font-family: 'PragmaticaBook', sans-serif;
 }
 
 .A_Subtitle-2-stronger {
+  font-family: 'PragmaticaBook', sans-serif;
 }
 
 .A_Body {
+  font-family: 'PragmaticaBook', sans-serif;
 }
 
 .A_Body-stronger {
+  font-family: 'PragmaticaBook', sans-serif;
 }
 
 .A_Caption-1 {
+  font-family: 'PragmaticaBook', sans-serif;
 }
 
 .A_Caption-2 {
+  font-family: 'PragmaticaBook', sans-serif;
 }
 
 .A_Caption-2-stronger {
+  font-family: 'PragmaticaBook', sans-serif;
 }
 
 /* TYPE SCALE END*/
