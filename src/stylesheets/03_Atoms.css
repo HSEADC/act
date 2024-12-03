@@ -7,7 +7,6 @@
   font-style: normal;
 }
 
-/* TYPOGRAPHY */
 .A_Display {
   font-family: 'PragmaticaBook', sans-serif;
   font-weight: normal;
@@ -66,7 +65,6 @@
   font-family: 'PragmaticaBook', sans-serif;
 }
 
-/* LINKS */
 .A_links {
   color: white;
 }
@@ -74,7 +72,6 @@
 .A_links:visited {
   color: white;
 }
-/* IMAGES */
 
 .A_logo-small {
   display: flex;
