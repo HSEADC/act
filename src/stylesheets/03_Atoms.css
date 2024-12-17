@@ -3,9 +3,8 @@
 .A_Display {
   font-family: 'PragmaticaBook', sans-serif;
   font-weight: normal;
-  font-size: var(--space-900);
-  line-height: var(--space-900);
-  padding-bottom: var(--space-200);
+  font-size: var(--space-3000);
+  line-height: var(--space-3000);
 }
 
 .A_Large-title {
@@ -16,7 +15,7 @@
 
 .A_Title-1 {
   font-family: 'PragmaticaBook', sans-serif;
-  font-size: var();
+  font-size: var(--space-900);
 }
 
 .A_Title-2 {
@@ -83,4 +82,8 @@ a:visited {
 }
 
 .A_LargeInput {
+  padding: var(--space-200);
+}
+.A_LargeInput > input {
+  color: co;
 }

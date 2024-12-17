@@ -202,6 +202,12 @@ table {
 }
 
 :root {
+  --white: rgb(255, 255, 255);
+  --black: rgb(0, 0, 0);
+  --transparent: rgba(255, 255, 255, 0);
+}
+
+:root {
   --zinc-50: #fafafa;
   --zinc-100: #f4f4f5;
   --zinc-200: #e4e4e7;
@@ -227,6 +233,23 @@ table {
   --red-800: #a5170f;
   --red-900: #881a14;
   --red-950: #4b0804;
+}
+
+/*SEMANTIC*/
+:root {
+  --background-primary: var(--zinc-50);
+  --background-secondary: var(--zinc-100);
+
+  --foreground-primary: var(--white);
+  --foreground-secondary: var(--zinc-50);
+
+  --text-primary: var(--zinc-950);
+  --text-secondary: var(--zinc-700);
+  --text-ternitary: var(--zinc-400);
+
+  --stroke-primary: var(--zinc-950);
+  --stroke-seconary: var(--zinc-700);
+  --stroke-ternitary: var(--zinc-400);
 }
 
 @font-face {
