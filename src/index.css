@@ -4,27 +4,4 @@
 @import './stylesheets/03_Atoms.css';
 @import './stylesheets/04_Molecules.css';
 @import './stylesheets/05_Organisms.css';
-
-.T_Hero {
-  width: 100dvw;
-  height: 100vh;
-}
-
-.T_Hero-image-wrapper {
-  flex-direction: column;
-  display: flex;
-  flex-grow: 1;
-  background-color: brown;
-  height: 100%;
-  align-items: end;
-  justify-content: start;
-}
-
-.T_Hero-image {
-  display: flex;
-  flex-direction: row;
-  flex-grow: 1;
-  background-color: red;
-  align-items: bottom;
-  justify-content: start;
-}
+@import './stylesheets/06_Layouts.css';

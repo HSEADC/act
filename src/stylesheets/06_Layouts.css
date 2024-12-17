@@ -1,0 +1,9 @@
+@import './00_DesignSystem.css';
+
+.L_Hero {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  justify-content: space-between;
+}
