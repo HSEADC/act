@@ -246,6 +246,8 @@ table {
   --text-primary: var(--zinc-950);
   --text-secondary: var(--zinc-700);
   --text-ternitary: var(--zinc-400);
+  --text-accent: var(--red-700);
+  --text-link: var(--zinc-900);
 
   --stroke-primary: var(--zinc-950);
   --stroke-seconary: var(--zinc-700);
