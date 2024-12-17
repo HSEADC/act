@@ -8,7 +8,8 @@ const path = require('path')
 
 module.exports = {
   entry: {
-    index: './src/index.js'
+    index: './src/index.js',
+    swiper: './src/scripts/swiper.js'
   },
   output: {
     filename: '[name].js',
@@ -61,9 +62,9 @@ module.exports = {
       },
       {
         test: /\.(ttf|otf|woff|woff2)$/i,
-        loader: 'file-loader',
-        options: {
-          name: 'fonts/[name].[ext]'
+        type: 'asset/resource',
+        generator: {
+          filename: 'fonts/[name].[ext]'
         }
       }
     ]
@@ -77,7 +78,8 @@ module.exports = {
     // Главная
     new HtmlWebpackPlugin({
       template: './src/index.html',
-      filename: './index.html'
+      filename: './index.html',
+      chunks: ['index', 'swiper']
     }),
 
     new HtmlWebpackPlugin({
