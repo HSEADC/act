@@ -23,3 +23,8 @@
   border: var(--space-1) solid var(--stroke-quaternary);
   border-radius: var(--radius-small);
 }
+
+.O_Filter {
+  display: flex;
+  padding: var(--space-0) var(--space-200) var(--space-200) var(--space-200);
+}
