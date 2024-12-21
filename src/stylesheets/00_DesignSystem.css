@@ -252,10 +252,12 @@ table {
   --stroke-primary: var(--zinc-950);
   --stroke-seconary: var(--zinc-700);
   --stroke-ternitary: var(--zinc-400);
+  --stroke-quaternary: var(--zinc-200);
 
   --radius-none: var(--space-0);
-  --radius-small: var(--space-025);
-  --radius-medium: var(--space-050);
+  --radius-x-small: var(--space-025);
+  --radius-small: var(--space-050);
+  --radius-medium: var(--space-075);
   --radius-large: var(--space-100);
   --radius-x-large: var(--space-150);
   --radius-max: 9999px;

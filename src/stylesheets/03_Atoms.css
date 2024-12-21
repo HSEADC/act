@@ -82,7 +82,7 @@ a:visited {
 }
 
 .A_LargeInput {
-  padding: var(--space-0) var(--space-200) var(--space-200) var(--space-200);
+  padding: var(--space-0) var(--space-200) var(--space-100) var(--space-200);
   stroke-width: var(--stroke-medium);
   width: 100%;
   display: flex;

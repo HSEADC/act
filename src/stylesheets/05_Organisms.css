@@ -1,16 +1,20 @@
 @import './01_Quarks.css';
 
-.O_Card {
-  display: flex;
-  align-items: start;
-  justify-content: space-between;
-  padding: var(--space-100);
-  flex-grow: 1;
-  flex-direction: column;
-}
 .O_Navigation {
   padding: var(--space-200);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.O_Carousel {
+  padding: var(--space-100);
+  background-color: red;
+  border-radius: var(--radius-small);
+}
+
+.O_ArticleCard {
+  padding: var(--space-100);
+  background-color: red;
+  border-radius: var(--radius-small);
 }
