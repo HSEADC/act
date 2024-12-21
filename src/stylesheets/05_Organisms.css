@@ -9,12 +9,17 @@
 
 .O_Carousel {
   padding: var(--space-100);
-  background-color: red;
+  background-color: var(--foreground-primary);
+  border: var(--space-1) solid var(--stroke-quaternary);
   border-radius: var(--radius-small);
 }
 
 .O_ArticleCard {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
   padding: var(--space-100);
-  background-color: red;
+  background-color: var(--foreground-primary);
+  border: var(--space-1) solid var(--stroke-quaternary);
   border-radius: var(--radius-small);
 }
