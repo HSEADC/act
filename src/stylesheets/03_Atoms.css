@@ -9,40 +9,41 @@
 
 .A_Large-title {
   font-family: 'PragmaticaBook', sans-serif;
-  font-size: var(--space-700);
-  line-height: var(--space-700);
+  font-size: var(--space-1500);
+  line-height: var(--space-1500);
 }
 
 .A_Title-1 {
   font-family: 'PragmaticaBook', sans-serif;
-  font-size: var(--space-900);
+  font-size: var(--space-1000);
+  line-height: var(--space-1000);
 }
 
 .A_Title-2 {
   font-family: 'PragmaticaBook', sans-serif;
+  font-size: var(--space-750);
+  line-height: var(--space-750);
 }
 
 .A_Title-3 {
   font-family: 'PragmaticaBook', sans-serif;
+  font-size: var(--space-600);
+  line-height: var(--space-600);
 }
 
 .A_Subtitle-1 {
   font-family: 'PragmaticaBook', sans-serif;
+  font-size: var(--space-400);
+  line-height: var(--space-400);
 }
 
 .A_Subtitle-2 {
   font-family: 'PragmaticaBook', sans-serif;
-}
-
-.A_Subtitle-2-stronger {
-  font-family: 'PragmaticaBook', sans-serif;
+  font-size: var(--space-300);
+  line-height: var(--space-300);
 }
 
 .A_Body {
-  font-family: 'PragmaticaBook', sans-serif;
-}
-
-.A_Body-stronger {
   font-family: 'PragmaticaBook', sans-serif;
 }
 
@@ -50,35 +51,20 @@
   font-family: 'PragmaticaBook', sans-serif;
 }
 
-.A_Caption-2 {
-  font-family: 'PragmaticaBook', sans-serif;
+.A_links > a {
+  color: var(--zinc-950);
+  text-decoration: none;
 }
 
-.A_Caption-2-stronger {
-  font-family: 'PragmaticaBook', sans-serif;
-}
-
-.A_links {
-  color: white;
-}
-
-.A_links:visited {
-  color: white;
+.A_links > a:visited {
+  color: var(--zinc-950);
+  text-decoration: none;
 }
 
 .A_logo-small {
   display: flex;
   align-items: center;
   justify-content: start;
-}
-
-a {
-  color: var(--zinc-950);
-  text-decoration: none;
-}
-
-a:visited {
-  color: var(--zinc-950);
 }
 
 .A_LargeInput {
