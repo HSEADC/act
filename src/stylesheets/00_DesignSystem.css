@@ -257,6 +257,7 @@ body {
   --text-secondary: var(--zinc-700);
   --text-ternitary: var(--zinc-400);
   --text-accent: var(--red-700);
+  --text-inverted: var(--white);
   --text-link: var(--zinc-900);
 
   --stroke-primary: var(--zinc-950);

@@ -45,10 +45,14 @@
 
 .A_Body {
   font-family: 'PragmaticaBook', sans-serif;
+  font-size: var(--space-200);
+  line-height: var(--space-250);
 }
 
 .A_Caption-1 {
   font-family: 'PragmaticaBook', sans-serif;
+  font-size: var(--space-150);
+  line-height: var(--space-200);
 }
 
 .A_links > a {
