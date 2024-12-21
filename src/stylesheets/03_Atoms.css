@@ -67,6 +67,7 @@
   justify-content: start;
 }
 .A_logo-small > a {
+  color: var(--zinc-950);
   text-decoration: none;
 }
 
