@@ -15,3 +15,11 @@
   flex-direction: column;
   gap: var(--space-100);
 }
+.W_Badge {
+  display: flex;
+  flex-direction: column;
+}
+
+.W_Badge > .A_Body {
+  color: var(--text-ternitary);
+}

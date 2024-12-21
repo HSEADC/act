@@ -9,5 +9,14 @@
 
 .O_Filter {
   display: flex;
-  padding: var(--space-0) var(--space-200) var(--space-200) var(--space-200);
+  flex-direction: column;
+  padding: var(--space-100);
+  background-color: var(--foreground-primary);
+  border: var(--space-1) solid var(--stroke-quaternary);
+}
+.O_Filter > .A_Subtitle-1 {
+  padding-bottom: var(--space-200);
+}
+
+.O_EffectCard {
 }

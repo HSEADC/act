@@ -85,7 +85,6 @@
   background-color: var(--foreground-primary);
   width: 100%;
   border-radius: var(--radius-large);
-  box-sizing: border-box;
   padding: var(--space-150);
   border: var(--space-1) solid var(--stroke-quaternary);
 }
