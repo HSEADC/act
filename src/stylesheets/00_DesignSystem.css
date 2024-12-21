@@ -124,6 +124,10 @@ table {
   border-spacing: 0;
 }
 
+*:focus {
+  outline: none;
+}
+
 @media (max-width: 480px) {
   :root {
     font-size: 1.25vw;

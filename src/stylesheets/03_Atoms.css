@@ -83,11 +83,14 @@ a:visited {
 
 .A_LargeInput {
   padding: var(--space-0) var(--space-200) var(--space-200) var(--space-200);
-  stroke-width: 2px;
+  stroke-width: var(--stroke-medium);
   width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  stroke: rgb(255, 0, 0);
 }
 .A_LargeInput > .A_Title-1 {
-  stroke: rgb(255, 0, 0);
   background-color: var(--foreground-primary);
   width: 100%;
   border-radius: var(--radius-large);
