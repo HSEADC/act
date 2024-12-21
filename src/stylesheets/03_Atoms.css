@@ -66,10 +66,15 @@
   align-items: center;
   justify-content: start;
 }
+.A_logo-small > a {
+  text-decoration: none;
+}
 
+.A_logo-small > a:visited {
+  color: var(--zinc-950);
+}
 .A_LargeInput {
   padding: var(--space-0) var(--space-200) var(--space-100) var(--space-200);
-  stroke-width: var(--stroke-medium);
   width: 100%;
   display: flex;
   align-items: center;
