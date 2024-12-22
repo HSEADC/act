@@ -7,7 +7,7 @@
   height: 100vh;
   justify-content: space-between;
 }
-.L_Gallery {
+.L_GallerySection {
   display: grid;
   grid-template-columns: 2fr 7fr;
   gap: var(--space-100);
