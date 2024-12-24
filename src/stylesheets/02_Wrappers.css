@@ -42,9 +42,14 @@
 .W_FooterForm {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .W_FooterDescriptor {
   display: flex;
   flex-direction: column;
+}
+
+.W_FooterDescriptor > .A_Caption {
+  width: 50%;
 }
