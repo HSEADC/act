@@ -1,6 +1,19 @@
+@import './00_DesignSystem.css';
+
 .swiper {
-  height: 50vw;
+  height: 100%;
+  width: 100%;
+  padding: var(--space-200);
+  box-sizing: border-box;
 }
 .swiper-slide {
+  box-sizing: border-box;
   height: 100%;
+  width: 100%;
+}
+
+.swiper-slide {
+  padding: var(--space-200);
+  border-radius: var(--radius-medium);
+  border: var(--space-1) solid var(--stroke-quaternary);
 }
