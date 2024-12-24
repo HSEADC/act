@@ -1,7 +1,24 @@
 @font-face {
-  font-family: 'MinVF';
-  src: url(../font/MinIconVF.ttf) format('truetype');
+  font-family: 'Min Icon VF';
+  src: url('../font/MinIconVF.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
 }
+
+i {
+  display: inline-block !important;
+  flex-direction: row !important;
+  padding: var(--space-100) !important;
+  font-family: 'Min Icon VF', 'Min Icon Brand' !important;
+  font-size: var(--space-300) !important;
+  font-weight: 800;
+  line-height: 1;
+  font-variation-settings: 'rond' 0, 'edpt' 0;
+  font-style: normal;
+  vertical-align: top;
+  -webkit-font-smoothing: antialiased;
+}
+
 /* Icon Style */
 i.fill {
   font-feature-settings: 'ss09' on;
