@@ -8,7 +8,7 @@
   overflow: hidden;
 }
 
-.W_Navigation {
+.W_NavigationLinks {
   display: flex;
   align-items: start;
   justify-content: start;

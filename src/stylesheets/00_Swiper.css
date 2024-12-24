@@ -19,7 +19,9 @@
 }
 
 .swiper-button-prev {
+  content: '';
 }
 
 .swiper-botton-next {
+  content: '';
 }
