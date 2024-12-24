@@ -92,3 +92,7 @@
   padding: var(--space-150);
   border: var(--space-1) solid var(--stroke-quaternary);
 }
+
+.A_SmallInput {
+  padding: var(--space-100);
+}

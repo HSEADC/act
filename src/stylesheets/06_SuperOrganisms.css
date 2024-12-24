@@ -4,3 +4,12 @@
   gap: var(--space-100);
   box-sizing: border-box;
 }
+
+.S_Footer {
+  display: flex;
+  flex-direction: row;
+  padding: var(--space-200);
+  background-color: brown;
+  justify-content: space-between;
+  gap: var(--space-200);
+}

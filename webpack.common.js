@@ -9,7 +9,8 @@ const path = require('path')
 module.exports = {
   entry: {
     index: './src/index.js',
-    swiper: './src/scripts/swiper.js'
+    swiper: './src/scripts/swiper.js',
+    gsap: './src/scripts/gsap.js'
   },
   output: {
     filename: '[name].js',
@@ -79,7 +80,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/index.html',
       filename: './index.html',
-      chunks: ['index', 'swiper']
+      chunks: ['index', 'swiper', 'gsap']
     }),
 
     new HtmlWebpackPlugin({

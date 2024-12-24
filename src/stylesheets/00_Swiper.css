@@ -17,3 +17,9 @@
   border-radius: var(--radius-medium);
   border: var(--space-1) solid var(--stroke-quaternary);
 }
+
+.swiper-button-prev {
+}
+
+.swiper-botton-next {
+}

@@ -1,5 +1,13 @@
 @import './01_Quarks.css';
 
+.W_SmoothScroll {
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
 .W_Navigation {
   display: flex;
   align-items: start;
@@ -29,4 +37,14 @@
   grid-template-columns: 2fr 2fr 2fr;
   grid-template-rows: 1fr 1fr 1fr;
   gap: var(--space-100);
+}
+
+.W_FooterForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.W_FooterDescriptor {
+  display: flex;
+  flex-direction: column;
 }
