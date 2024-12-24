@@ -6,16 +6,15 @@
   padding: var(--space-200);
   box-sizing: border-box;
 }
+
 .swiper-slide {
   box-sizing: border-box;
   height: 100%;
   width: 100%;
-}
-
-.swiper-slide {
   padding: var(--space-200);
   border-radius: var(--radius-medium);
   border: var(--space-1) solid var(--stroke-quaternary);
+  background-color: var(--foreground-primary);
 }
 
 .swiper-button-prev {
