@@ -49,7 +49,7 @@
   line-height: var(--space-250);
 }
 
-.A_Caption-1 {
+.A_Caption {
   font-family: 'Montreal Regular', sans-serif;
   font-size: var(--space-150);
   line-height: var(--space-200);
@@ -71,16 +71,23 @@
   display: flex;
   align-items: center;
   justify-content: start;
+  color: var(--blue-600);
 }
+
+.A_logo-small:hover {
+  transform: perspective(2000px) rotateY(35deg) rotateX(-10deg) scale(1.5);
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .A_logo-small > a {
   font-family: 'Montreal Bold', sans-serif;
-  color: var(--blue-600);
   text-decoration: none;
 }
 
 .A_logo-small > a:visited {
-  color: var(--zinc-950);
+  color: var(--blue-600);
 }
+
 .A_LargeInput {
   padding: var(--space-0) var(--space-200) var(--space-100) var(--space-200);
   display: flex;

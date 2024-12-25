@@ -8,8 +8,9 @@
 .S_Footer {
   display: flex;
   flex-direction: row;
+  background-color: var(--background-dark);
   padding: var(--space-200);
-  background-color: brown;
   justify-content: space-between;
   gap: var(--space-200);
+  color: var(--text-inverted);
 }
