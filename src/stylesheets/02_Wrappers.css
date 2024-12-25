@@ -8,6 +8,9 @@
   overflow: hidden;
 }
 
+.W_NavContainer {
+  padding: var(--space-100);
+}
 .W_NavigationLinks {
   display: flex;
   align-items: start;

@@ -89,10 +89,10 @@
         <!-- If we need pagination -->
         <div class="swiper-pagination"></div>
 
-        <!-- If we need navigation buttons -->
+        <!-- If we need navigation buttons
         <div class="swiper-button-prev"></div>
         <div class="swiper-button-next"></div>
-
+ -->
         <!-- If we need scrollbar -->
         <!--<div class="swiper-scrollbar"></div> -->
       </div>
@@ -152,54 +152,6 @@
           Обращаясь к нам, вы соглашаетесь с кражей вашей идентичности.
         </div>
       </div>
-
-      <form
-        id="my-form"
-        action="https://formspree.io/f/xannylgl"
-        method="POST"
-        class="W_FooterForm"
-      >
-        <label class="A_Body">Почта:</label>
-        <input class="A_SmallInput" type="email" name="email" />
-        <button id="my-form-button">Отправить</button>
-        <p id="my-form-status"></p>
-      </form>
-      <script>
-        var form = document.getElementById('my-form')
-
-        async function handleSubmit(event) {
-          event.preventDefault()
-          var status = document.getElementById('my-form-status')
-          var data = new FormData(event.target)
-          fetch(event.target.action, {
-            method: form.method,
-            body: data,
-            headers: {
-              Accept: 'application/json'
-            }
-          })
-            .then((response) => {
-              if (response.ok) {
-                status.innerHTML = 'Добро пожаловать на борт!' // замена
-                form.reset()
-              } else {
-                response.json().then((data) => {
-                  if (Object.hasOwn(data, 'errors')) {
-                    status.innerHTML = data['errors']
-                      .map((error) => error['message'])
-                      .join(', ')
-                  } else {
-                    status.innerHTML = 'Чето не так, повтори попозже' // замена
-                  }
-                })
-              }
-            })
-            .catch((error) => {
-              status.innerHTML = 'Чето не так, повтори попозже' // замена
-            })
-        }
-        form.addEventListener('submit', handleSubmit)
-      </script>
     </footer>
   </body>
 </html>

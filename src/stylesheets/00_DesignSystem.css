@@ -231,20 +231,6 @@ body {
   --zinc-950: #09090b;
 }
 
-:root {
-  --red-50: #fff2f1;
-  --red-100: #ffe1df;
-  --red-200: #ffc8c5;
-  --red-300: #ffa29d;
-  --red-400: #ff6c64;
-  --red-500: #ff3e34;
-  --red-600: #ed2015;
-  --red-700: #c8170d;
-  --red-800: #a5170f;
-  --red-900: #881a14;
-  --red-950: #4b0804;
-}
-
 /*SEMANTIC*/
 :root {
   --background-primary: var(--zinc-50);
