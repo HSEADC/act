@@ -132,7 +132,7 @@ html {
 
 body {
   background-color: var(--background-primary);
-  background-image: url(images/57877e59611de7db208f.png);
+  background-image: url(./images/57877e59611de7db208f.png);
   background-repeat: repeat;
   background-size: 200px;
 }
@@ -281,12 +281,12 @@ body {
 
 @font-face {
   font-family: 'Montreal Regular';
-  src: url(fonts/NeueMontreal-Regular..ttf) format('truetype');
+  src: url(./fonts/NeueMontreal-Regular..ttf) format('truetype');
 }
 
 @font-face {
   font-family: 'Montreal Bold';
-  src: url(fonts/NeueMontreal-Bold..ttf) format('truetype');
+  src: url(./fonts/NeueMontreal-Bold..ttf) format('truetype');
 }
 
 body {
