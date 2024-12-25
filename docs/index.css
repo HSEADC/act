@@ -318,13 +318,6 @@
   --red-950: #4b0804;
 }
 
-@font-face {
-  font-family: 'PragmaticaBook', sans-serif;
-  src: url(b3a8af90765925609795.ttf) format('truetype');
-  font-weight: 400;
-  font-style: normal;
-}
-
 .A_Display {
   font-family: 'PragmaticaBook', sans-serif;
   font-weight: normal;
@@ -620,8 +613,6 @@
   flex-direction: column;
 }
 
-
-
 *,
 *::before,
 *::after {
@@ -723,4 +714,24 @@
   --red-950: #4b0804;
 }
 
-.T_Hero{width:100dvw;height:100vh}.T_Hero-image-wrapper{flex-direction:column;display:flex;flex-grow:1;background-color:brown;height:100%;align-items:end;justify-content:start}.T_Hero-image{display:flex;flex-direction:row;flex-grow:1;background-color:red;align-items:bottom;justify-content:start}
+.T_Hero {
+  width: 100dvw;
+  height: 100vh;
+}
+.T_Hero-image-wrapper {
+  flex-direction: column;
+  display: flex;
+  flex-grow: 1;
+  background-color: brown;
+  height: 100%;
+  align-items: end;
+  justify-content: start;
+}
+.T_Hero-image {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  background-color: red;
+  align-items: bottom;
+  justify-content: start;
+}

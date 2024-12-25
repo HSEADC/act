@@ -234,17 +234,19 @@ body {
 /*SEMANTIC*/
 :root {
   --background-primary: var(--zinc-50);
-  --background-secondary: var(--zinc-100);
+  --background-dark: var(--zinc-900);
 
   --foreground-primary: var(--white);
-  --foreground-secondary: var(--zinc-50);
+  --foreground-secondary: var(--zinc-100);
+  --foreground-ternitary: var(--zinc-100);
+  --accent: var(--blue-600);
 
   --text-primary: var(--zinc-950);
   --text-secondary: var(--zinc-700);
   --text-ternitary: var(--zinc-400);
-  --text-accent: var(--red-700);
+  --text-accent: var(--blue-600);
   --text-inverted: var(--white);
-  --text-link: var(--zinc-900);
+  --text-link: var(--zinc-950);
 
   --stroke-primary: var(--zinc-950);
   --stroke-seconary: var(--zinc-700);
@@ -261,20 +263,16 @@ body {
 }
 
 @font-face {
-  font-family: 'Pragmatica Bold';
-  src: url('../font/Pragmatica-Bold.ttf') format('truetype');
+  font-family: 'Montreal Regular';
+  src: url('../font/NeueMontreal-Regular.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: 'Pragmatica Book';
-  src: url('../font/Pragmatica-Book.ttf') format('truetype');
-}
-@font-face {
-  font-family: 'Pragmatica Medium';
-  src: url('../font/Pragmatica-Medium.ttf') format('truetype');
+  font-family: 'Montreal Bold';
+  src: url('../font/NeueMontreal-Bold.ttf') format('truetype');
 }
 
 body {
-  font-family: 'Pragmatica Book';
+  font-family: 'Montreal Regular';
   background-color: var(--background-primary);
 }
