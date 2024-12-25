@@ -57,13 +57,13 @@
 
 .A_links > a {
   font-family: 'Montreal Regular', sans-serif;
-  color: var(--zinc-950);
+  color: var(--text-primary);
   text-decoration: none;
 }
 
 .A_links > a:visited {
   font-family: 'Montreal Regular', sans-serif;
-  color: var(--zinc-950);
+  color: var(--text-primary);
   text-decoration: none;
 }
 
