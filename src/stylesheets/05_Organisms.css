@@ -52,3 +52,11 @@
   padding: var(--space-100);
   height: var(--space-3000);
 }
+
+.O_FooterContainer {
+  display: flex;
+  flex-direction: row;
+  gap: var(--space-200);
+  padding: var(--space-200);
+  background-color: var(--background-dark);
+}
