@@ -61,3 +61,11 @@
 .W_FooterDescriptor > .A_Caption {
   width: 50%;
 }
+
+.W_ArtilcesFilter {
+  display: flex;
+  padding: var(--space-200);
+  justify-content: center;
+  align-items: center;
+  gap: var(--space-100);
+}

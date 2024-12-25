@@ -132,7 +132,7 @@ html {
 
 body {
   background-color: var(--background-primary);
-  background-image: url('../images/noisetexture.png');
+  background-image: url(images/57877e59611de7db208f.png);
   background-repeat: repeat;
   background-size: 200px;
 }
@@ -281,15 +281,17 @@ body {
 
 @font-face {
   font-family: 'Montreal Regular';
-  src: url('../font/NeueMontreal-Regular.ttf') format('truetype');
+  src: url(fonts/NeueMontreal-Regular..ttf) format('truetype');
 }
 
 @font-face {
   font-family: 'Montreal Bold';
-  src: url('../font/NeueMontreal-Bold.ttf') format('truetype');
+  src: url(fonts/NeueMontreal-Bold..ttf) format('truetype');
 }
 
 body {
   font-family: 'Montreal Regular';
   background-color: var(--background-primary);
 }
+
+.swiper{height:100%;width:100%;padding:var(--space-200);box-sizing:border-box}.swiper-slide{box-sizing:border-box;height:100%;width:100%;padding:var(--space-200);border-radius:var(--radius-medium);border:var(--space-1) solid var(--stroke-quaternary);background-color:var(--foreground-primary)}.swiper-button-prev{content:""}.swiper-botton-next{content:""}
