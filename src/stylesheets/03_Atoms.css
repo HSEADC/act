@@ -113,4 +113,19 @@
 .A_SmallBotton > .A_Body {
   display: flex;
   padding: var(--space-50) var(--space-50);
+  align-items: start;
+  justify-content: start;
+}
+
+.Filled {
+  background-color: var(--foreground-secondary);
+  border-radius: var(--radius-small);
+  color: var(--text-secondary);
+  width: 100%;
+}
+
+.Inline {
+  background-color: none;
+  border: none;
+  color: var(--text-secondary);
 }
