@@ -9625,8 +9625,6 @@ i.iBrandApple::before {
   content: '\F8FF';
 }
 
-
-
 .container {
   width: 100%; /* Define parent width */
   height: 10vh; /* Set height to 10% of the viewport height */
@@ -12961,5 +12959,3 @@ body {
   gap: var(--space-100);
   padding: var(--space-0) var(--space-200) var(--space-200) var(--space-200);
 }
-
-
