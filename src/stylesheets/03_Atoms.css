@@ -1,0 +1,244 @@
+@import './00_DesignSystem.css';
+
+.A_Display {
+  font-family: 'Montreal Regular', sans-serif;
+  font-weight: normal;
+  font-size: var(--space-3000);
+  line-height: var(--space-3000);
+}
+
+.A_Large-title {
+  font-family: 'Montreal Regular', sans-serif;
+  font-size: var(--space-1500);
+  line-height: var(--space-1500);
+}
+
+.A_Title-1 {
+  font-family: 'Montreal Regular', sans-serif;
+  font-size: var(--space-1000);
+  line-height: var(--space-1000);
+}
+
+.A_Title-2 {
+  font-family: 'Montreal Regular', sans-serif;
+  font-size: var(--space-750);
+  line-height: var(--space-750);
+}
+
+.A_Title-3 {
+  font-family: 'Montreal Regular', sans-serif;
+  font-size: var(--space-600);
+  line-height: var(--space-600);
+}
+
+.A_Subtitle-1 {
+  font-family: 'Montreal Regular', sans-serif;
+  font-size: var(--space-400);
+  line-height: var(--space-400);
+}
+
+.A_Subtitle-2 {
+  font-family: 'Montreal Regular', sans-serif;
+  font-size: var(--space-300);
+  line-height: var(--space-300);
+}
+
+.A_Body {
+  font-family: 'Montreal Regular', sans-serif;
+  font-size: var(--space-200);
+  line-height: var(--space-250);
+}
+
+.A_Caption {
+  font-family: 'Montreal Regular', sans-serif;
+  font-size: var(--space-150);
+  line-height: var(--space-200);
+}
+
+.A_links > a {
+  font-family: 'Montreal Regular', sans-serif;
+  color: var(--text-primary);
+  text-decoration: none;
+}
+
+.A_links > a:visited {
+  font-family: 'Montreal Regular', sans-serif;
+  color: var(--text-primary);
+  text-decoration: none;
+}
+
+.A_logo-small {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  color: var(--blue-600);
+}
+
+.A_logo-small:hover {
+  transform: perspective(2000px) rotateY(35deg) rotateX(-10deg) scale(1.5);
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.A_logo-small > a {
+  font-family: 'Montreal Bold', sans-serif;
+  text-decoration: none;
+}
+
+.A_logo-small > a:visited {
+  color: var(--blue-600);
+}
+
+.A_LargeInput {
+  padding: var(--space-0) var(--space-200) var(--space-100) var(--space-200);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.A_LargeInput > .A_Title-1 {
+  background-color: var(--foreground-primary);
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: var(--radius-large);
+  padding: var(--space-150);
+  border: var(--space-1) solid var(--stroke-quaternary);
+}
+
+.A_SmallBotton {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.A_SmallBotton > .A_Body {
+  display: flex;
+  padding: var(--space-50) var(--space-50);
+  align-items: start;
+  justify-content: start;
+}
+
+.Filled {
+  background-color: var(--foreground-secondary);
+  border-radius: var(--radius-small);
+  color: var(--text-secondary);
+  width: 100%;
+}
+
+.Inline {
+  background-color: none;
+  border: none;
+  color: var(--text-secondary);
+}
+
+
+
+/* Ксюшин код */
+
+
+/* Header */
+.A_Logo {
+  width: 72px;
+  height: 32px;
+}
+
+.A_MenuButton {
+  text-align: center; 
+  color: #FAFAFA; 
+  font-size: 14px; 
+  font-family: 'Montreal Regular', sans-serif;
+  font-weight: 500; 
+  line-height: 20px; 
+  word-wrap: break-word
+}
+
+.A_MenuIcon {
+  position: relative
+}
+
+.A_HeaderButtons1 {
+  display: flex;
+  width: 122px;
+  height: 28px;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 2px;
+  background: var(--Zinc-600, #52525B);
+
+  color: var(--color-base-white, #FFF);
+
+  font-family: 'Montreal Regular', sans-serif;
+}
+
+.A_HeaderButtons2 {
+  display: flex;
+  width: 122px;
+  height: 28px;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 2px;
+  background: var(--Zinc-50, #FAFAFA);
+
+  font-family: 'Montreal Regular', sans-serif;
+}
+
+/* Поиск */
+.A_Search {
+  display: flex;
+  height: 72px;
+  padding: 16px 0px 16px 32px;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+
+  border-radius: 4px;
+  background: #27272A;
+
+  color: rgba(255, 255, 255, 0.40);
+
+  /* text-4xl/normal */
+  font-family: 'Montreal Regular', sans-serif;
+  font-size: var(--font-size-4xl, 36px);
+  font-style: normal;
+  font-weight: var(--font-weight-normal, 400);
+  line-height: var(--font-line-height-10, 40px); /* 111.111% */
+  letter-spacing: var(--font-letter-spacing-normal, 0px);
+}
+
+/* Article Title */
+.A_InterviewHeader {
+  align-self: stretch;
+
+  color: #F2F2F2;
+  font-family: 'Montreal Regular', sans-serif;
+  font-size: var(--font-size-9xl, 128px);
+  font-style: normal;
+  font-weight: var(--font-weight-normal, 400);
+  line-height: var(--font-size-9xl, 128px); /* 100% */
+  letter-spacing: var(--font-letter-spacing-normal, 0px);
+}
+
+.A_Tags {
+  display: flex;
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+
+  border-radius: 4px;
+}
+
+.A_Tags.Green {
+  background: #C7F995;
+}
+
+.A_Tags2 {
+  background: #FFAEFF;
+}
+
+.A_Tags3 {
+  border: 1px solid var(--Zinc-50, #FAFAFA);
+  color: #FAFAFA;
+}
+
