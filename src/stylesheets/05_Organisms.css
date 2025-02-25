@@ -93,3 +93,38 @@
   align-items: flex-start;
   align-self: stretch;
 }
+
+.O_TextBlock {
+  display: flex;
+  padding-bottom: 32px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+}
+
+.O_Person {
+  display: flex;
+  width: 305px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+/* Footer */
+.O_FooterContainer {
+  display: flex;
+  padding: space-400 space-200 32px space-200;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: space-400;
+  align-self: stretch;
+}
+
+.O_FooterText {
+  display: flex;
+  height: 300px;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: stretch;
+}

@@ -242,3 +242,174 @@
   color: #FAFAFA;
 }
 
+/* Article Text */
+.A_ArtcilceHeader {
+  display: flex;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+
+  width: 777px;
+  align-self: stretch;
+
+  color: #F2F2F2;
+  font-family: 'Montreal Regular', sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110%; /* 39.6px */
+  letter-spacing: -1.08px;
+}
+
+.A_Rectangle {
+  width: 1px;
+  height: 130px;
+
+  background: #C7F995;
+}
+
+.A_AricleTextBlock {
+  display: flex;
+  align-items: flex-start;
+
+  width: 752px;
+
+  color: #F2F2F2;
+  font-family: 'Montreal Regular', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; /* 26px */
+}
+
+/* Article Image */
+.A_TextUnderImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  color: rgba(242, 242, 242, 0.70);
+
+  /* text-2xl/normal */
+  font-family: 'Montreal Regular', sans-serif;
+  font-size: var(--font-size-2xl, 24px);
+  font-style: normal;
+  font-weight: var(--font-weight-normal, 400);
+  line-height: var(--font-line-height-8, 32px); /* 133.333% */
+  letter-spacing: var(--font-letter-spacing-normal, 0px);
+}
+
+/* Footer */
+.A_Button {
+  display: flex;
+  height: 96px;
+  padding: var(--spacing-6, 24px) 0px;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  align-self: stretch;
+
+  border-radius: 4px;
+  background: var(--Zinc-600, #52525B);
+}
+
+.A_FooterButtonText {
+  color: var(--Zinc-50, #FAFAFA);
+
+  /* text-2xl/normal */
+  font-family: 'Montreal Regular', sans-serif;
+  font-size: var(--font-size-2xl, 24px);
+  font-style: normal;
+  font-weight: var(--font-weight-normal, 400);
+  line-height: var(--font-line-height-8, 32px); /* 133.333% */
+  letter-spacing: var(--font-letter-spacing-normal, 0px);
+}
+
+.A_FooterText{
+  display: flex;
+  align-items: flex-start;
+  align-self: stretch;
+
+  width: 646px;
+
+  color: #F2F2F2;
+  font-family: 'Montreal Regular', sans-serif;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110%; /* 57.2px */
+  letter-spacing: -1px;
+}
+
+.A_SecondaryButton {
+  display: flex;
+  padding: 24px 32px;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 4px;
+  border: 1px solid rgba(242, 242, 242, 0.80);
+
+  color: #F2F2F2;
+
+  /* text-xl/medium */
+  font-family: 'Montreal Regular', sans-serif;
+  font-size: var(--font-size-xl, 20px);
+  font-style: normal;
+  font-weight: var(--font-weight-medium, 500);
+  line-height: var(--font-line-height-7, 28px); /* 140% */
+  letter-spacing: var(--font-letter-spacing-normal, 0px);
+}
+
+.A_FooterHeadline {
+  display: flex;
+  padding: space-0;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: space-0;
+  align-self: stretch;
+
+  color: #F2F2F2;
+
+  /* Web/Subtitle-2 */
+  font-family: 'Montreal Regular', sans-serif;
+  font-size: var(--Font-size-Subtitle-2, 24px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: var(--Line-height-Subtitle-2, 32px); /* 133.333% */
+  letter-spacing: -1px;
+}
+
+.A_ButtonLink {
+  display: flex;
+  padding: space-0;
+  align-items: center;
+  gap: space-100;
+
+  border-radius: var(--radius-x-small, 2px);
+}
+
+.A_FooterLink {
+  display: flex;
+  padding: space-0;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: space-0;
+
+  align-self: stretch;
+
+  color: #F2F2F2;
+  font-variant-numeric: lining-nums tabular-nums stacked-fractions slashed-zero;
+  font-feature-settings: 'case' on, 'cpsp' on, 'liga' off;
+
+  /* Web/Body */
+  font-family: 'Montreal Regular', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: var(--Line-height-Body, 24px); /* 133.333% */
+}

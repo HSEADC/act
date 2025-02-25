@@ -47,3 +47,62 @@
   gap: 10px;
 }
 
+.M_ArticleTextBlock {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  align-self: stretch;
+}
+
+.M_Person {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+}
+
+/* Article Image */
+.M_ImageInArticle {
+  display: flex;
+  width: 777px;
+  padding-bottom: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.C_TextBlock {
+  display: flex;
+  width: 777px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Footer */
+.M_FooterText {
+  display: flex;
+  width: 646px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.C_LinksColumn {
+  display: flex;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.C_SecondaryButtons {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.M_LinksColumn {
+  display: flex;
+  width: 210px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
