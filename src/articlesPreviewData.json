@@ -1,0 +1,14 @@
+[
+  {
+    "videoSrc": "images/videos/armageddon.mp4",
+    "previewBg": "images/articles/armageddonpreview.jpg",
+    "title": "AESPA — Armageddon",
+    "text": "Этот клип — пример того, как k-pop выходит за рамки традиционного продакшена"
+  },
+  {
+    "videoSrc": "images/videos/supernova.mp4",
+    "previewBg": "images/articles/supernovaaespa.jpg",
+    "title": "AESPA — Supernova",
+    "text": "Футуристический клип, где каждая участница демонстрирует «суперспособность»"
+  }
+]

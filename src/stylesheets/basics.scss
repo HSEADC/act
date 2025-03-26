@@ -1,0 +1,36 @@
+a {
+  text-decoration: none;
+}
+
+span {
+  &.Secondary {
+    color: var(--textSecondary);
+  }
+  &.Green {
+    color: var(--buttonsSecondary);
+  }
+}
+
+@media (max-width: 700px) {
+  span {
+    &.AdaptiveHidden {
+      display: none;
+    }
+  }
+}
+
+#ksyusha {
+  background-image: url('../images/aboutus/ksyuha.jpg');
+}
+
+#marina {
+  background-image: url('../images/aboutus/marina.jpg');
+}
+
+html {
+  background-color: var(--bgColor);
+}
+body {
+  padding-top: 116px;
+  overflow-x: hidden;
+}

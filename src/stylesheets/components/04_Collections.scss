@@ -1,0 +1,287 @@
+.C_Nav {
+  display: flex;
+  gap: 4px;
+}
+
+.C_LinksColumn {
+  display: flex;
+  flex-direction: column;
+  &.Sticky {
+    height: max-content;
+    position: sticky;
+    top: 92px;
+  }
+}
+
+.C_FooterLinks {
+  display: flex;
+  gap: 40px;
+  align-items: flex-end;
+  width: 40%;
+  background-image: url('../../images/RightFooter.webp');
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 44px 24px;
+  height: 100%;
+}
+
+.C_BreakdownMainContent {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 90%;
+}
+
+.C_Recommendations {
+  display: flex;
+  gap: 8px;
+  position: relative;
+  width: 100%;
+}
+
+.W_NavMobile > .C_Nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.C_TextBlocks {
+  flex-direction: column;
+  display: flex;
+  gap: 40px;
+}
+
+.C_TabsFilters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+}
+
+.C_Tags {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.C_ArticleCards {
+  gap: 8px;
+  display: flex;
+  padding: 0px 16px;
+  flex-wrap: wrap;
+}
+
+.C_AuthorWorksPreview {
+  width: 100%;
+  display: flex;
+  aspect-ratio: 4 / 3;
+}
+
+.C_AuthorCards {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 24px;
+  gap: 8px;
+  justify-content: space-between;
+}
+
+.C_AuthorCreditsList {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  max-width: 500px;
+  &.Video {
+    width: 350px;
+  }
+}
+
+.C_CardsAboutLanding {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.W_ReviewCredits > .C_AuthorCreditsList {
+  width: 100%;
+}
+
+.C_VideoAuthorsGrid {
+  display: grid;
+  grid-template-columns: repeat(20, 1fr);
+  gap: 8px;
+  padding: 0 16px;
+  align-items: end;
+  width: 100%;
+}
+
+.C_VideosSubtitles {
+  display: flex;
+  justify-content: space-between;
+}
+
+.C_VideosAboutUs {
+  display: grid;
+  gap: 8px;
+  padding: 36px 0;
+  grid-template-columns: repeat(20, 1fr);
+}
+
+.C_CreatorsCards {
+  display: flex;
+  gap: 64px;
+  justify-content: center;
+}
+
+.C_TextBlocks {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.C_GuideCard {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.C_GuideLogo {
+  display: flex;
+  padding: 0px 80px 80px 80px;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+}
+
+.C_GuidePalette {
+  display: flex;
+  padding: 0px 80px 160px 80px;
+  align-items: center;
+  gap: 8px;
+}
+
+.C_GuideForms {
+  display: flex;
+  padding: 0px 80px 80px 80px;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 8px;
+  align-self: stretch;
+  flex-wrap: wrap;
+}
+
+.C_GuideFont {
+  display: flex;
+  padding: 40px 80px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+  background: var(--Fill-Secondary, #27272A);
+}
+
+@media (max-width: 1280px) and (min-width: 800px) {
+  .C_ArticleCards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-flow: dense;
+  }
+}
+
+@media (max-width: 1280px) {
+  .C_LinksColumn.Sticky {
+    width: 20%;
+  }
+}
+
+@media (max-width: 964px) {
+  .C_Recommendations {
+    overflow: scroll;
+  }
+}
+
+@media (max-width: 900px) {
+  .C_AuthorCreditsList {
+    order: 2;
+  }
+  .C_CreatorsCards {
+    gap: 28px;
+  }
+
+  .C_VideoAuthorsGrid,
+  .C_VideosAboutUs {
+    grid-template-columns: repeat(12, 1fr);
+  }
+}
+
+@media (max-width: 800px) {
+  .C_Nav {
+    display: none;
+  }
+  .W_NavMobile > .C_Nav {
+    display: flex;
+  }
+  .C_FooterLinks {
+    width: 100%;
+    background: var(--lighterBlack);
+    padding: 0px 32px 32px 32px;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 700px) {
+  .C_AuthorCreditsList {
+    width: 100%;
+  }
+}
+
+@media (min-width: 800px) {
+  .W_DescriptionWithCredits.Vertical > .C_AuthorCreditsList {
+    &.Video {
+      width: 500px;
+    }
+  }
+}
+
+@media (max-width: 415px) {
+}
+
+@media (min-width: 500px) {
+  .C_BreakdownMainContent {
+    position: sticky;
+    height: calc(100vh - 92px);
+    overflow: hidden;
+    top: 92px;
+  }
+}
+
+@media (max-width: 500px) {
+  .C_LinksColumn.Sticky {
+    display: none;
+  }
+  .C_AuthorCreditsList {
+    width: 100%;
+  }
+  .C_BreakdownMainContent {
+    width: 100%;
+  }
+
+  .C_CreatorsCards {
+    gap: 60px;
+    flex-direction: column;
+  }
+  .C_VideosSubtitles {
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+  }
+}
+
+@media (max-width: 400px) {
+  .C_VideoAuthorsGrid,
+  .C_VideosAboutUs {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

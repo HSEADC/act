@@ -1,0 +1,54 @@
+{
+  "Все": {
+    "showTags": false,
+    "tags": [],
+    "content": null
+  },
+  "Эффекты": {
+    "showTags": true,
+    "tags": ["Fast Motion", "Slow Motion", "Glitch", "Zoom"],
+    "content": {
+      "Fast Motion": {
+        "title": "Fast Motion",
+        "count": 246,
+        "description": "Это — интересная техника видеосъемки и монтажа, при которой скорость воспроизведения видео увеличивается..."
+      },
+      "Slow Motion": {
+        "title": "Slow Motion",
+        "count": 132,
+        "description": "Позволяет запечатлеть детали движения, делая его замедленным и выразительным..."
+      },
+      "Glitch": {
+        "title": "Glitch",
+        "count": 98,
+        "description": "Добавляет цифровые артефакты для эффекта сбоя или 'ломаного' изображения..."
+      },
+      "Zoom": {
+        "title": "Zoom",
+        "count": 75,
+        "description": "Используется для фокусировки внимания на определенных объектах или сценах..."
+      }
+    }
+  },
+  "Переходы": {
+    "showTags": true,
+    "tags": ["Fade", "Wipe", "Slide"],
+    "content": {
+      "Fade": {
+        "title": "Fade",
+        "count": 50,
+        "description": "Плавное исчезновение или появление изображения..."
+      },
+      "Wipe": {
+        "title": "Wipe",
+        "count": 30,
+        "description": "Переход в форме перемещения одной сцены поверх другой..."
+      },
+      "Slide": {
+        "title": "Slide",
+        "count": 40,
+        "description": "Сдвигает один кадр, открывая следующий..."
+      }
+    }
+  }
+}

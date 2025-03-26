@@ -1,0 +1,154 @@
+.Q_Arrow {
+  width: 16px;
+  height: 16px;
+  background-image: url('../../images/arrow.svg');
+  background-repeat: no-repeat;
+  background-size: 70% 70%;
+  background-position: center;
+}
+
+.Q_AuthorPFP {
+  width: 20%;
+  position: absolute;
+  aspect-ratio: 1;
+  object-fit: cover;
+  bottom: 0%;
+  left: 50%;
+  transform: translateX(-50%) translateY(50%);
+  border-radius: 10000px;
+}
+
+.Q_FilterAmount {
+  position: absolute;
+  left: 105%;
+  top: 0;
+  font: var(--bodyLarge);
+  color: var(--white04);
+}
+
+.Q_Burger {
+  height: 3px;
+  width: 24px;
+  border-radius: 1000px;
+  background-color: var(--white04);
+  position: relative;
+}
+
+.Q_Backdrop {
+  z-index: 1;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  height: 100vh;
+  background-color: var(--black08);
+}
+
+.Q_Burger:after,
+.Q_Burger:before {
+  left: 0;
+  position: absolute;
+  border-radius: 1000px;
+  width: 24px;
+  content: '';
+  background-color: var(--textSecondary);
+  height: 3px;
+  transition: 1s;
+}
+
+.Q_Burger:after {
+  top: -300%;
+  transition-delay: 0s, 0.3s;
+  transition-property: top, transform;
+  transition-duration: 0.5s, 0.5s;
+}
+.Q_Burger:before {
+  top: 300%;
+  transition-delay: 0s, 0.3s;
+  transition-property: top, transform;
+  transition-duration: 0.5s, 0.5s;
+}
+
+.Q_Burger.Active {
+  background: none;
+}
+.Q_Burger.Active:before,
+.Q_Burger.Active:after {
+  background-color: var(--textSecondary);
+  transition-delay: 0s, 0.3s;
+  transition-property: top, rotate;
+  transition-duration: 0.3s, 0.3s;
+  top: 0;
+}
+.Q_Burger.Active:before {
+  rotate: 45deg;
+}
+.Q_Burger.Active:after {
+  rotate: -45deg;
+}
+
+.Q_Error404Overlay {
+  background-image: url('../../images/grid.png');
+  width: 100%;
+  pointer-events: none;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+}
+
+.Q_QuoteDivider {
+  height: calc(100% - 32px);
+  width: 2px;
+  top: 16px;
+  left: 16px;
+  border-radius: 1000px;
+  background: var(--buttonsSecondary);
+  position: absolute;
+}
+
+.Q_Divider {
+  width: 100%;
+  height: 2px;
+  border-radius: 1000px;
+  background: var(--fillSecondary);
+}
+
+.Q_Error404 {
+  font-family: 'Panama';
+  font-style: italic;
+  font-size: 55vw;
+
+  transform: translateX(-5%);
+  color: var(--fillSecondary);
+  z-index: -1;
+  position: absolute;
+}
+
+.Q_Divider {
+  &.GuideDivider {
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 800px) {
+  .Q_Backdrop.Active {
+    display: block;
+  }
+}
+
+@media (max-width: 800px) {
+  .Q_Error404 {
+    font-size: 60vw;
+    top: 20%;
+    transform: translateX(-4%);
+  }
+}
+
+@media (max-width: 500px) {
+  .Q_Error404 {
+    font-size: 60vw;
+    top: 30%;
+  }
+}

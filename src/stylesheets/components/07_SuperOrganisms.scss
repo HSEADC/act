@@ -1,0 +1,107 @@
+.S_Footer {
+  width: 100%;
+  margin-top: 44px;
+  height: 337px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.S_MainVideoTitles {
+  position: relative;
+  margin-bottom: 32px;
+}
+
+.S_AuthorsPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.S_VideoPageContent {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 0px 24px;
+  &.Vertical {
+    flex-direction: row;
+    gap: 24px;
+  }
+}
+
+.S_BreakdownPage {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.S_Error404 {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+}
+
+.S_AboutUsContent {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.S_ArticleBody {
+  width: 50%;
+  gap: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.S_Landing {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
+@media (max-width: 1280px) {
+  .S_ArticleBody {
+    width: 80%;
+    order: 3;
+  }
+}
+
+@media (max-width: 1280px) and (min-width: 415px) {
+  .S_Footer {
+    height: 337px;
+  }
+}
+@media (max-width: 800px) {
+  .S_Error404 {
+    padding-bottom: 30%;
+    align-items: flex-end;
+  }
+}
+
+@media (max-width: 700px) {
+  .S_VideoPageContent {
+    &.Vertical {
+      flex-direction: column;
+      gap: 40px;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .S_Error404 {
+    padding-bottom: 40%;
+    align-items: flex-end;
+  }
+  .S_ArticleBody {
+    width: 100%;
+  }
+}
+
+@media (max-width: 414px) {
+  .S_Footer {
+    margin-top: 24px;
+    height: 321px;
+  }
+}

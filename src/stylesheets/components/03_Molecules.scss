@@ -1,0 +1,372 @@
+.M_Nav {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.M_LinksColumn {
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+}
+
+.M_Gallery {
+  display: flex;
+  gap: 8px;
+  min-height: 20vh;
+}
+
+.O_GalleryPreview > .M_Gallery {
+  width: 100%;
+  height: 30vh;
+}
+
+.M_ArticleCardImage {
+  width: 100%;
+}
+
+.M_ArticleTextName {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 4px;
+  background-color: var(--fillSecondary);
+}
+
+.M_LandingHeader {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-content: flex-start;
+  justify-content: center;
+}
+
+.W_CardLanding > .M_TextWithButton {
+  width: 50%;
+}
+
+.M_VideoAuthor {
+  &.LandingVertical {
+    aspect-ratio: 9 / 16;
+    width: 200px;
+    position: absolute;
+  }
+  &.LandingHorizontal {
+    aspect-ratio: 16 / 9;
+    width: 450px;
+    position: absolute;
+  }
+}
+
+.M_AuthorsPreviewText {
+  display: flex;
+  padding: 0px 24px;
+  height: 50%;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.M_CardAuthorText {
+  background-color: var(--fillSecondary);
+  padding: 15% 16px 32px 16px;
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.M_ImageSlider {
+  position: relative;
+  width: 100vw;
+  height: 50%;
+}
+.M_ProfileAuthor {
+  position: relative;
+}
+
+.M_AuthorInfoTextName {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.M_AuthorCredits {
+  justify-content: flex-start;
+  display: flex;
+  gap: 40px;
+  &.Horizontal.Video {
+    justify-content: flex-end;
+  }
+}
+
+.M_VideoAuthor {
+  &.Vertical {
+    aspect-ratio: 9 / 16;
+  }
+  &.Horizontal {
+    aspect-ratio: 16 / 9.35;
+  }
+
+  &.column1-5 {
+    grid-column: span 4;
+  }
+  &.column3-5 {
+    grid-column: span 12;
+  }
+  &.column5-5 {
+    grid-column: span 20;
+  }
+  &.column2-4 {
+    grid-column: span 10;
+  }
+}
+
+.M_PreviewCard {
+  display: flex;
+  row-gap: 12px;
+  padding: 20px;
+  background-color: var(--black04);
+  position: absolute;
+  bottom: 30px;
+  column-gap: 24px;
+  height: 40%;
+  width: 45%;
+  flex-wrap: wrap;
+  flex-direction: column;
+  right: 30px;
+  border-radius: 16px;
+  backdrop-filter: blur(400px);
+}
+
+.M_TextWithButton {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  gap: 8px;
+}
+
+.W_DescriptionWithCredits.Vertical > .M_TextWithButton {
+  width: 100%;
+}
+
+.M_FiltersHeadline {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5% 25%;
+  background-image: url('../../images/filterHighlighter.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.M_HeroFrameTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.M_SpecialAboutUsText {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.M_Error404 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.M_Quote {
+  padding: 16px 16px 16px 34px;
+  background: var(--fillSecondary);
+  border-radius: 8px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.M_ArticleTitle {
+  flex-direction: column;
+  display: flex;
+  margin-bottom: 40px;
+  gap: 16px;
+}
+
+.M_ArticleText {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.M_Recommendation {
+  width: 33%;
+  min-width: 300px;
+}
+
+.M_GuideStyle {
+  display: flex;
+  padding: 0px 80px 80px 80px;
+  flex-direction: column;
+  align-items: center;
+  align-self: stretch;
+  gap: 8px;
+}
+
+.M_GuideText {
+  display: flex;
+  padding-bottom: 32px;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+  gap: 8px;
+}
+
+.M_GuideCard {
+  display: flex;
+  width: 294px;
+  height: 281px;
+  padding-top: 16px;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+  background: var(--Fill-Secondary, #27272A);
+}
+
+.M_GuideFont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+}
+
+.M_GuidePreview {
+  display: flex;
+  width: 100%;
+  padding-bottom: 80px;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+}
+
+@media (max-width: 1280px) and (min-width: 415px) {
+  .M_PreviewCard {
+    width: calc(100% - 60px);
+    left: 30px;
+  }
+  .O_ArticleCard.Vertical > .M_ArticleCardImage,
+  .O_ArticleCard.Vertical > .M_ArticleTextName {
+    width: 50%;
+    aspect-ratio: 1 / 3;
+  }
+}
+
+@media (max-width: 900px) {
+  .M_AuthorInfoTextName {
+    order: 1;
+  }
+  .M_VideoAuthor {
+    &.Vertical {
+      grid-column: span 4;
+    }
+  }
+}
+
+@media (max-width: 900px) and (min-width: 400px) {
+  .M_VideoAuthor {
+    &.column2-4 {
+      grid-column: span 2;
+    }
+    &.Horizontal {
+      grid-column: span 6;
+    }
+    &.Narrow {
+      grid-column: span 3;
+    }
+    &.WideAdaptive {
+      grid-column: span 6;
+    }
+    &.Horizontal.Single {
+      grid-column: span 12;
+    }
+    &.Horizontal.Narrow {
+      grid-column: span 9;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  .O_ArticleCard.Vertical > .M_ArticleCardImage,
+  .O_ArticleCard.Vertical > .M_ArticleTextName {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+  }
+}
+
+@media (max-width: 700px) {
+  .M_PreviewCard {
+    height: 25%;
+  }
+  .M_TextWithButton {
+    width: 100%;
+  }
+  .M_FiltersHeadline {
+    background-image: url('../../images/highlighterTablet.svg');
+    padding: 10% 15%;
+  }
+}
+
+@media (max-width: 570px) {
+  .M_PreviewCard {
+    width: calc(100% - 28px);
+    left: 14px;
+    height: unset;
+    flex-direction: row;
+    gap: 12px;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 500px) {
+  .W_CardLanding > .M_TextWithButton {
+    width: 100%;
+  }
+  .M_FiltersHeadline {
+    background-image: url('../../images/highlighterMobile.svg');
+    padding: 15% 15%;
+  }
+}
+
+@media (max-width: 414px) {
+  .M_PreviewCard {
+    width: calc(100% - 28px);
+    left: 14px;
+    height: unset;
+    gap: 12px;
+    align-items: flex-start;
+  }
+  .M_SpecialAboutUsText {
+    width: 90%;
+  }
+  .O_GalleryPreview > .M_Gallery {
+    height: 20vh;
+  }
+}
+
+@media (max-width: 400px) {
+  .M_VideoAuthor {
+    &.Vertical {
+      grid-column: span 1;
+    }
+    &.Horizontal {
+      grid-column: span 2;
+    }
+  }
+}

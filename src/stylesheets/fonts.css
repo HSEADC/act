@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'Neue Montreal';
+  src: url('../font/PPNeueMontreal-Book.otf') format('opentype');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Neue Montreal Bold';
+  src: url('../font/PPNeueMontreal-Medium.otf') format('opentype');
+  font-style: bold;
+}
+@font-face {
+  font-family: 'Panama';
+  src: url('../font/Panama.ttf') format('truetype');
+  font-style: normal;
+}

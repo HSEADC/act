@@ -1,0 +1,227 @@
+.W_AuthorInfoText {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.W_NavMobile {
+  display: none;
+}
+
+.W_ArticleTextName {
+  background-color: var(--fillSecondary);
+  height: 100%;
+  width: 100%;
+  padding: 20px 20% 20px 16px;
+  &.Vertical {
+    padding: 20px 16px 20px 16px;
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+}
+.W_DescriptionWithCredits {
+  display: flex;
+  justify-content: space-between;
+  &.Vertical {
+    gap: 24px;
+    height: 100%;
+    flex-direction: column;
+  }
+}
+
+.W_ArticleCard {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.W_404 {
+  max-width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.W_HeroFrameText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 24px;
+  position: absolute;
+  bottom: 50%;
+  transform: translateY(50%);
+}
+
+.W_AboutUsVideoWithText {
+  width: 100%;
+}
+
+.W_CreatorsCards {
+  background: var(--fillSecondary);
+  padding: 80px 24px;
+}
+.W_ReviewCredits {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  height: max-content;
+  background: var(--fillSecondary);
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.W_Recommendation {
+  display: flex;
+  flex-direction: column;
+  padding: 0 24px;
+  gap: 8px;
+}
+
+.W_BreakdownMainContent {
+  display: flex;
+  gap: 24px;
+}
+
+.W_CardLanding {
+  display: flex;
+  padding: 24px;
+  border-radius: 8px;
+  gap: 48px;
+  background: var(--fillSecondary);
+  &:nth-of-type(odd) {
+    flex-direction: row-reverse;
+    background: var(--buttonsSecondary);
+  }
+}
+
+.W_VideoWithTextLanding {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+}
+
+.W_GuideText {
+  display: flex;
+  padding: 0px 80px 160px 80px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 48px;
+  align-self: stretch;
+}
+
+.W_GuidePalette {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1 0 0;
+}
+
+.W_GuideFont {
+  display: flex;
+  padding-bottom: 40px;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+}
+
+@media (max-width: 1280px) {
+  .W_BreakdownMainContent {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1280px) and (min-width: 800px) {
+  .W_ArticleTextName {
+    &.Vertical {
+      width: 50%;
+    }
+  }
+}
+
+@media (max-width: 964px) {
+  .W_Recommendation {
+    padding: 0 0 0 24px;
+  }
+}
+
+@media (max-width: 900px) {
+  .W_AuthorInfoText {
+    width: 100%;
+    gap: 32px;
+    order: 2;
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 800px) {
+  .W_NavMobile.Active {
+    display: block;
+    position: absolute;
+    right: 24px;
+    background: var(--fillSecondary);
+    width: 200px;
+    border-radius: 5px;
+    top: 86px;
+    padding: 16px;
+    z-index: 2;
+  }
+}
+
+@media (max-width: 700px) {
+  .W_DescriptionWithCredits {
+    flex-direction: column;
+    gap: 40px;
+  }
+}
+
+@media (min-width: 500px) {
+  .W_BreakdownMainContent {
+    position: absolute;
+    height: 100%;
+    /* bottom: 0; */
+    transition: opacity 0.5s ease;
+    opacity: 0;
+    width: 100%;
+  }
+  .W_BreakdownMainContent {
+    padding: 0px 0px 60px 0;
+    height: calc(100vh - 106px);
+  }
+}
+
+@media (max-width: 1280px) and (min-width: 414px) {
+  .W_ReviewCredits {
+    order: 2;
+    width: 80%;
+  }
+}
+
+@media (max-width: 500px) {
+  .W_AuthorInfoText {
+    flex-direction: column;
+  }
+  .W_ReviewCredits {
+    width: 100%;
+  }
+  .W_VideoWithTextLanding {
+    flex-direction: column;
+  }
+  .W_CardLanding {
+    flex-direction: column !important;
+  }
+}
+
+@media (max-width: 414px) {
+  .W_ArticleTextName {
+    padding: 20px 16px 20px 16px;
+  }
+}

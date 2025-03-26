@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "tabAttribute": "effects",
+    "imageSource": "../../images/preview.png",
+    "imageLink": "articles/effects.html"
+  },
+  {
+    "id": 2,
+    "tabAttribute": "techniques",
+    "imageSource": "../../images/preview.png",
+    "imageLink": "articles/effects.html"
+  },
+  {
+    "id": 3,
+    "tabAttribute": "authors",
+    "imageSource": "../../images/preview.png",
+    "imageLink": "articles/effects.html"
+  },
+  {
+    "id": 4,
+    "tabAttribute": "genres",
+    "imageSource": "../../images/preview.png",
+    "imageLink": "articles/effects.html"
+  },
+  {
+    "id": 5,
+    "tabAttribute": "formats",
+    "imageSource": "../../images/preview.png",
+    "imageLink": "articles/effects.html"
+  },
+  {
+    "id": 6,
+    "tabAttribute": "clips",
+    "imageSource": "../../images/preview.png",
+    "imageLink": "articles/effects.html"
+  },
+  {
+    "id": 7,
+    "tabAttribute": "cinema",
+    "imageSource": "../../images/preview.png",
+    "imageLink": "articles/effects.html"
+  }
+]

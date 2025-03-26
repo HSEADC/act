@@ -1,0 +1,88 @@
+:root {
+  --bgColor: rgba(24, 24, 27, 1);
+  --lighterBlack: rgba(40, 39, 42, 1);
+  --buttonsPrimary: rgba(63, 63, 70, 1);
+  --buttonsSecondary: rgba(231, 254, 123, 1);
+  --magenta: rgba(235, 14, 235, 1);
+  --fillSecondary: rgba(39, 39, 42, 1);
+  --white: rgba(242, 242, 242, 1);
+  --textPrimary: rgba(250, 250, 250, 1);
+  --textPrimaryInverted: rgba(24, 24, 27, 1);
+  --textIcons: rgba(161, 161, 170, 1);
+  --textSecondary: rgba(113, 113, 122, 1);
+  --white01: rgba(217, 217, 217, 0.1);
+  --white04: rgba(242, 242, 242, 0.4);
+  --white08: rgba(242, 242, 242, 0.8);
+  --black04: rgba(17, 17, 17, 0.4);
+  --black08: rgba(17, 17, 17, 0.8);
+
+  --font-h1: 400 164px / 140px 'Panama', serif;
+  --landing-h1: 400 164px / 140px 'Panama', serif;
+  --logo: 400 164px / 140px 'Panama', serif;
+  --accent-h1: 400 128px / 128px 'Panama', serif;
+  --font-h2: 400 108px / 108px 'Panama', serif;
+  --accent-h2: 400 108px / 108px 'Panama', serif;
+  --font-h3: 400 80px / 80px 'Panama', serif;
+  --font-h4: 400 48px / 48px 'Panama', serif;
+  --font-h5: 400 32px / 32px 'Panama', serif;
+  --menu: 500 17px / 19px 'Neue Montreal', sans-serif;
+  --bodyMain: 400 17px / 19px 'Neue Montreal', sans-serif;
+  --bodyLarge: 400 20px / 22px 'Neue Montreal', sans-serif;
+  --caption: 400 13px / 15px 'Neue Montreal', sans-serif;
+}
+
+@media (max-width: 900px) {
+  :root {
+    --accent-h2: 400 48px / 48px 'Panama', serif;
+    --font-h1: 400 96px / 96px 'Panama', serif;
+  }
+}
+
+@media (max-width: 700px) {
+  :root {
+    --accent-h1: 400 50px / 44px 'Panama', serif;
+    --accent-h2: 400 80px / 80px 'Panama', serif;
+    --font-h1: 400 48px / 48px 'Panama', serif;
+    --font-h2: 400 32px / 32px 'Panama', serif;
+    --font-h3: 400 32px / 32px 'Panama', serif;
+    --font-h4: 400 32px / 32px 'Panama', serif;
+    --landing-h1: 400 80px / 80px 'Panama', serif;
+  }
+}
+
+h1 {
+  font: var(--font-h1);
+  text-transform: uppercase;
+}
+
+h1.Accent {
+  font: var(--accent-h1);
+  color: var(--textIcons);
+  text-transform: none;
+}
+
+h3 {
+  font: var(--font-h3);
+  text-transform: uppercase;
+}
+
+h2 {
+  font: var(--font-h2);
+  text-transform: uppercase;
+}
+
+h2.Accent {
+  font: var(--accent-h2);
+}
+h4 {
+  font: var(--font-h4);
+}
+h5 {
+  font: var(--font-h5);
+  color: var(--textIcons);
+}
+
+p {
+  text-wrap: balance;
+  font: var(--bodyMain);
+}
