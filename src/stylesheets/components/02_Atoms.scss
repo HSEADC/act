@@ -173,6 +173,9 @@
     width: 100%;
     height: 100%;
   }
+  &.VR {
+    background-image: url('../../images/articles/reviews/vonDutch/motion-design-in-vr--when-your-movements-are-a-gam.jpg');
+  }
 }
 
 .O_ArticleCard > .M_ArticleCardImage > .A_ArticleCardImageTitle {
@@ -301,6 +304,7 @@
   color: var(--white08);
   &.Center {
     text-align: center;
+
   }
   &.Secondary {
     width: 120px;
@@ -620,7 +624,7 @@
   height: 740px;
   justify-content: center;
   align-items: center;
-  background-image: url('../../images/styleguide/GuideLights.png'), no-repeat;
+  background-image: url('../../images/styleguide/GuideLights.png');
 }
 
 @media (min-width: 1281px) {
