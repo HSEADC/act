@@ -76,6 +76,10 @@
   background: var(--fillSecondary);
   padding: 16px;
   border-radius: 8px;
+
+  &.Hidden {
+    background: none;
+  }
 }
 
 .W_Recommendation {

@@ -393,6 +393,12 @@ body {
   position: absolute;
 }
 
+.Q_Divider {
+  &.GuideDivider {
+    margin-bottom: 40px;
+  }
+}
+
 @media (max-width: 800px) {
   .Q_Backdrop.Active {
     display: block;
@@ -717,6 +723,7 @@ body {
   color: var(--white08);
   &.Center {
     text-align: center;
+    
   }
   &.Secondary {
     width: 120px;
@@ -844,7 +851,6 @@ body {
   transform: translateX(-10%);
   background-size: 100% 100%;
   background-image: url(images/52ede94aa3c59259a261.png);
-
   &.RtL {
     transform: rotateY(-180deg);
   }
@@ -878,6 +884,166 @@ body {
   width: 30%;
   object-fit: cover;
   max-width: 500px;
+}
+
+.A_GuideImg {
+  display: flex;
+  width: 294px;
+  height: 223px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  &.Logo {
+    background-image: url(images/070a41b71c76151810b8.png);
+  }
+  &.Colors {
+    background-image: url(images/2065262d57cd3a48b153.png);
+  }
+  &.Type {
+    background-image: url(images/07711cdb63dd895dade0.png);
+  }
+  &.Form {
+    background-image: url(images/69ff9a3dd3b52a039c5e.png);
+  }
+}
+
+.A_GuideLogo {
+  display: flex;
+  height: 281px;
+  justify-content: center;
+  align-items: center;
+  flex: 1 0 0;
+  border-radius: 8px;
+  &.FirstLogo {
+    background: #27272A;
+    background-image: url(images/630d72576904022940e5.png);
+  }
+  &.SecondLogo {
+    background: #27272A;
+    background-image: url(images/9a3ab89aec4501db0ca1.png);
+  }
+  &.ThirdLogo {
+    background: #27272A;
+    background-image: url(images/f916793c0c94d4cff81d.png);
+  }
+  &.FourthLogo {
+    background: #F576F5;
+    background-image: url(images/9a026e0ef0674f74766a.png);
+  }
+  &.FifthLogo {
+    background: #E7FE7B;
+    background-image: url(images/429a5156029228b5463c.png);
+  }
+  &.SixthLogo {
+    background: #FAFAFA;
+    background-image: url(images/8541d8eeb05a5ff0ba12.png);
+  }
+}
+
+.A_GuidePalette {
+  height: 145px;
+  align-self: stretch;
+  border-radius: 8px 8px 0px 0px;
+  &.Pink {
+    background: var(--magenta, #EB0EEB);
+  }
+  &.PinkL {
+    background: #F576F5;
+  }
+  &.Green {
+    background: #D4FD0E;
+  }
+  &.GreenL {
+    background: #E7FE7B;
+  }
+  &.Dark {
+    background: #27272A;
+  }
+  &.Light {
+    background: #FAFAFA;
+  }
+}
+
+.A_GuidePaletteText {
+  display: flex;
+  padding: 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  align-self: stretch;
+  border-radius: 0px 0px 8px 8px;
+  background: var(--lighterBlack, #27272A);
+}
+
+.M_TextWithButton {
+  &.GuideText {
+    display: flex;
+    width: 788px;
+    padding: 0px 80px 40px 80px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+.A_H3 {
+  &.GuideHead {
+    display: flex;
+    padding-bottom: 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+  }
+}
+
+.A_TextMain {
+  &.GuideBlock {
+    display: flex;
+    align-items: flex-start;
+    align-self: stretch;
+  }
+}
+
+.A_GuideForms {
+  width: 368px;
+  height: 350px;
+  &.Form1 {
+    background-image: url(images/e96f2011f090ad4a6d8f.png);
+  }
+  &.Form2 {
+    background-image: url(images/03a01bd68c1287d46d0b.png);
+  }
+  &.Form3 {
+    background-image: url(images/95923638e8d45bea2a04.png);
+  }
+  &.Form4 {
+    background-image: url(images/bc8d0b4fd50b39ee6e55.png);
+  }
+  &.Form5 {
+    background-image: url(images/f3d08e5b1ebd0cd086bc.png);
+  }
+  &.Form6 {
+    background-image: url(images/31ec195ce55a959645c4.png);
+  }
+}
+
+.A_GuidePreview {
+  display: flex;
+  width: 100%;
+  height: 740px;
+  justify-content: center;
+  align-items: center;
+  background-image: url(images/e0395ed13b8c89e048c7.png);
+}
+
+.A_GuideLights {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 740px;
+  justify-content: center;
+  align-items: center;
+  background-image: url(images/b14be6658ac82c85a9c3.png);
 }
 
 @media (min-width: 1281px) {
@@ -1270,6 +1436,52 @@ body {
   min-width: 300px;
 }
 
+.M_GuideStyle {
+  display: flex;
+  padding: 0px 80px 80px 80px;
+  flex-direction: column;
+  align-items: center;
+  align-self: stretch;
+  gap: 8px;
+}
+
+.M_GuideText {
+  display: flex;
+  padding-bottom: 32px;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+  gap: 8px;
+}
+
+.M_GuideCard {
+  display: flex;
+  width: 294px;
+  height: 281px;
+  padding-top: 16px;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+  background: var(--Fill-Secondary, #27272A);
+}
+
+.M_GuideFont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+}
+
+.M_GuidePreview {
+  display: flex;
+  width: 100%;
+  padding-bottom: 80px;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+}
+
 @media (max-width: 1280px) and (min-width: 415px) {
   .M_PreviewCard {
     width: calc(100% - 60px);
@@ -1520,6 +1732,55 @@ body {
   justify-content: center;
 }
 
+.C_TextBlocks {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.C_GuideCard {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.C_GuideLogo {
+  display: flex;
+  padding: 0px 80px 80px 80px;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+}
+
+.C_GuidePalette {
+  display: flex;
+  padding: 0px 80px 160px 80px;
+  align-items: center;
+  gap: 8px;
+}
+
+.C_GuideForms {
+  display: flex;
+  padding: 0px 80px 80px 80px;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 8px;
+  align-self: stretch;
+  flex-wrap: wrap;
+}
+
+.C_GuideFont {
+  display: flex;
+  padding: 40px 80px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+  background: var(--Fill-Secondary, #27272A);
+}
+
 @media (max-width: 1280px) and (min-width: 800px) {
   .C_ArticleCards {
     display: grid;
@@ -1733,6 +1994,30 @@ body {
   align-items: center;
   gap: 20px;
   justify-content: center;
+}
+
+.W_GuideText {
+  display: flex;
+  padding: 0px 80px 160px 80px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 48px;
+  align-self: stretch;
+}
+
+.W_GuidePalette {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1 0 0;
+}
+
+.W_GuideFont {
+  display: flex;
+  padding-bottom: 40px;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
 }
 
 @media (max-width: 1280px) {
@@ -1992,6 +2277,21 @@ body {
   flex-direction: column;
   gap: 24px;
   margin-bottom: 40px;
+}
+
+.O_GuideBrand {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.O_GuideBase {
+  display: flex;
+  width: 100%;
+  padding-bottom: 160px;
+  flex-direction: column;
+  align-items: center;
 }
 
 @media (max-width: 1280px) and (min-width: 800px) {

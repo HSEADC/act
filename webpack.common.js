@@ -314,14 +314,26 @@ module.exports = {
     }),
 
     new HtmlWebpackPlugin({
+      template: './src/pages/error505.html',
+      filename: './error505.html',
+      chunks: ['index']
+    }),
+
+    new HtmlWebpackPlugin({
       template: './src/pages/articles/reviews/vonDutch.html',
-      filename: './pages/articles/reviews/vonDutch.html',
+      filename: './articles/reviews/vonDutch.html',
+      chunks: ['index']
+    }),
+
+    new HtmlWebpackPlugin({
+      template: './src/pages/articles/reviews/vrEffects.html',
+      filename: './articles/reviews/vrEffects.html',
       chunks: ['index']
     }),
 
     new HtmlWebpackPlugin({
       template: './src/pages/articles/breakdowns/supernova.html',
-      filename: './pages/articles/breakdowns/supernova.html',
+      filename: './articles/breakdowns/supernova.html',
       chunks: ['index', 'breakdown']
     }),
 
