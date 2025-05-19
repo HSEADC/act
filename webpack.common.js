@@ -341,7 +341,7 @@ module.exports = {
       template: './src/pages/landing.html',
       filename: './landing.html',
       chunks: ['index', 'landing']
-    })
+    }),
 
     //  new HtmlWebpackPlugin({
     //    template: './src/articles/breakdowns/breakdown.html',
@@ -363,14 +363,14 @@ module.exports = {
     // }),
 
     // Partials
-    //    new HtmlWebpackPartialsPlugin([
-    //    {
-    //      path: path.join(__dirname, './src/partials/analytics.html'),
-    //     location: 'analytics',
-    //     template_filename: '*',
-    //      priority: 'replace'
-    //    }
-    //  ])
+       new HtmlWebpackPartialsPlugin([
+       {
+         path: path.join(__dirname, './src/partials/analytics.html'),
+        location: 'analytics',
+        template_filename: '*',
+         priority: 'replace'
+       }
+     ])
   ],
   optimization: {
     // minimizer: [new CssMinimizerPlugin()]
