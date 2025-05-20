@@ -265,6 +265,44 @@ body {
   overflow-x: hidden;
 }
 
+.O_Search {
+  display: flex;
+  margin: 50px auto;
+  align-items: center;
+  gap: 10px;
+  max-width: 30%;
+}
+
+.A_SearchInput {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 250px;
+  height: 48px;
+  background-color: transparent;
+  padding: 1px 8px;
+}
+
+&:focus {
+  border-color: inherit;
+  box-shadow: none;
+  outline: none;
+}
+
+.A_SearchButton {
+  padding: 16px 16px;
+  background-color: black;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  user-select: none;
+}
+
+&.disable {
+  background-color: lightgray;
+  color: grey;
+  cursor: default;
+
+}
 .Q_Arrow {
   width: 16px;
   height: 16px;
@@ -595,6 +633,9 @@ body {
     width: 100%;
     height: 100%;
   }
+  &.VR {
+    background-image: url(images/540f869fdd8cce0263ca.jpg);
+  }
 }
 
 .O_ArticleCard > .M_ArticleCardImage > .A_ArticleCardImageTitle {
@@ -723,7 +764,7 @@ body {
   color: var(--white08);
   &.Center {
     text-align: center;
-    
+
   }
   &.Secondary {
     width: 120px;
@@ -1963,6 +2004,10 @@ body {
   background: var(--fillSecondary);
   padding: 16px;
   border-radius: 8px;
+
+  &.Hidden {
+    background: none;
+  }
 }
 
 .W_Recommendation {
