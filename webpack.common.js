@@ -15,7 +15,8 @@ module.exports = {
     authors: './src/scripts/authors.js',
     similar: './src/scripts/similar.js',
     breakdown: './src/scripts/breakdown.js',
-    landing: './src/scripts/landing.js'
+    landing: './src/scripts/landing.js',
+    search: './src/scripts/search-vanila.js'
   },
   output: {
     filename: '[name].js',
@@ -342,6 +343,15 @@ module.exports = {
       filename: './landing.html',
       chunks: ['index', 'landing']
     }),
+
+    new HtmlWebpackPlugin({
+      template: './src/search.html',
+      filename: './search.html',
+      chunks: ['index', 'search']
+      // 'search' для ванилы
+    }),
+
+
 
     //  new HtmlWebpackPlugin({
     //    template: './src/articles/breakdowns/breakdown.html',
