@@ -267,12 +267,147 @@ body {
 
 .O_Search {
   display: flex;
-  margin: 50px auto;
   align-items: center;
-  gap: 10px;
-  max-width: 30%;
+  gap: 4px;
+  flex-direction: column;
+  &.Is-Active {
+    width: 40vw;
+  }
 }
 
+#root-mobile {
+  position: fixed;
+  margin-bottom: 24px;
+  width: 100%;
+  z-index: 5;
+  top: 90px;
+  padding: 0 20px;
+}
+
+.C_AudienceCards {
+  justify-content: space-between;
+  gap: 12px;
+  display: flex;
+}
+
+.O_AudienceCard {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 33%;
+  border-radius: 4px;
+  background-color: var(--lighterBlack);
+  padding: 16px;
+}
+
+.C_AudienceList {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.A_AudienceType {
+  font: var(--bodyLarge);
+  color: var(--textPrimary);
+}
+
+.A_AudienceMark {
+  color: var(--white04);
+}
+.A_AudienceTitle {
+  font: var(--menu);
+  color: var(--textPrimary);
+}
+
+input {
+  all: unset;
+  color: var(--textPrimary);
+  font: var(--menu);
+  width: 100%;
+
+  &:focus {
+    border: none;
+    box-shadow: none;
+    outline: none;
+  }
+}
+
+.O_Search > .O_SeachField {
+  padding: 0px 8px 0px 8px;
+}
+
+.O_Search.Is-Active > .O_SearchField {
+  padding: 0px 0px 0px 12px;
+}
+
+.O_SearchField {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  border-radius: 4px;
+  background: var(--lighterBlack);
+}
+
+.A_SearchMessage {
+  text-wrap: balance;
+  font: var(--menu);
+  color: var(--white04);
+}
+.A_SearchImg {
+  object-fit: cover;
+  width: 50px;
+  aspect-ratio: 1;
+  border-radius: 4px;
+}
+
+.Q_IconArrow,
+.Q_Search {
+  width: 18px;
+  aspect-ratio: 1;
+}
+
+.Q_IconArrow {
+  width: 16px;
+  aspect-ratio: 1;
+}
+.W_SearchDropdown {
+  width: 100%;
+  border-radius: 4px;
+  padding: 12px;
+  background: var(--lighterBlack);
+}
+
+.A_SearchDivider {
+  width: 100%;
+  height: 2px;
+  background-color: var(--white01);
+}
+
+.A_SearchTitle {
+  font: var(--bodyLarge);
+  color: var(--textPrimary);
+}
+
+.A_SearchType {
+  font: var(--bodyMain);
+  color: var(--white04);
+}
+
+.M_SearchItem {
+  width: 100%;
+  gap: 16px;
+  align-items: center;
+  padding: 12px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.W_SearchItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
 .A_SearchInput {
   border: 1px solid black;
   border-radius: 10px;
@@ -282,27 +417,46 @@ body {
   padding: 1px 8px;
 }
 
-&:focus {
-  border-color: inherit;
-  box-shadow: none;
-  outline: none;
+.M_SearchInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
 }
 
-.A_SearchButton {
-  padding: 16px 16px;
-  background-color: black;
-  border-radius: 8px;
-  color: white;
-  cursor: pointer;
-  user-select: none;
+.W_Search {
+  position: absolute;
+  top: 20px;
+  right: 24px;
+  gap: 12px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
 }
 
-&.disable {
-  background-color: lightgray;
-  color: grey;
-  cursor: default;
+@media (max-width: 800px) {
+  body {
+    padding-top: 156px;
+  }
+  .Q_Search {
+    width: 28px;
+  }
 
+  .Q_IconArrow {
+    width: 24px;
+  }
+
+  .O_Search.Is-Active {
+    width: 100%;
+  }
+  .O_SearchField,
+  .O_Search.Is-Active > .O_SearchField {
+    padding: 0px 0px 0px 16px;
+  }
+  .W_SearchDropdown {
+    padding: 16px;
+  }
 }
+
 .Q_Arrow {
   width: 16px;
   height: 16px;
@@ -513,7 +667,7 @@ body {
   display: flex;
   border-radius: 4px;
   justify-content: center;
-  margin-top: 16px;
+
   align-items: center;
   gap: 4px;
   cursor: pointer;
@@ -633,13 +787,11 @@ body {
     width: 100%;
     height: 100%;
   }
-  &.VR {
-    background-image: url(images/540f869fdd8cce0263ca.jpg);
-  }
 }
 
 .O_ArticleCard > .M_ArticleCardImage > .A_ArticleCardImageTitle {
   width: 100%;
+  object-fit: cover;
 }
 
 .A_ImagePreview {
@@ -764,7 +916,6 @@ body {
   color: var(--white08);
   &.Center {
     text-align: center;
-
   }
   &.Secondary {
     width: 120px;
@@ -802,10 +953,14 @@ body {
 }
 
 .A_ButtonSmall {
+  box-shadow: none;
+  outline: none;
+  border: none;
   padding: 12px 35px;
   background-color: var(--bgColor);
   color: var(--textPrimary);
   font: var(--menu);
+  cursor: pointer;
   display: flex;
   justify-content: center;
   width: max-content;
@@ -814,6 +969,14 @@ body {
   &.Green {
     background: var(--buttonsSecondary);
     color: var(--textPrimaryInverted);
+  }
+  &.Search {
+    display: flex;
+    gap: 10px;
+    background: none;
+    padding: 8px 10px;
+    align-items: flex-end;
+    color: var(--textIcons);
   }
 }
 
@@ -956,27 +1119,27 @@ body {
   flex: 1 0 0;
   border-radius: 8px;
   &.FirstLogo {
-    background: #27272A;
+    background: #27272a;
     background-image: url(images/630d72576904022940e5.png);
   }
   &.SecondLogo {
-    background: #27272A;
+    background: #27272a;
     background-image: url(images/9a3ab89aec4501db0ca1.png);
   }
   &.ThirdLogo {
-    background: #27272A;
+    background: #27272a;
     background-image: url(images/f916793c0c94d4cff81d.png);
   }
   &.FourthLogo {
-    background: #F576F5;
+    background: #f576f5;
     background-image: url(images/9a026e0ef0674f74766a.png);
   }
   &.FifthLogo {
-    background: #E7FE7B;
+    background: #e7fe7b;
     background-image: url(images/429a5156029228b5463c.png);
   }
   &.SixthLogo {
-    background: #FAFAFA;
+    background: #fafafa;
     background-image: url(images/8541d8eeb05a5ff0ba12.png);
   }
 }
@@ -986,22 +1149,22 @@ body {
   align-self: stretch;
   border-radius: 8px 8px 0px 0px;
   &.Pink {
-    background: var(--magenta, #EB0EEB);
+    background: var(--magenta, #eb0eeb);
   }
   &.PinkL {
-    background: #F576F5;
+    background: #f576f5;
   }
   &.Green {
-    background: #D4FD0E;
+    background: #d4fd0e;
   }
   &.GreenL {
-    background: #E7FE7B;
+    background: #e7fe7b;
   }
   &.Dark {
-    background: #27272A;
+    background: #27272a;
   }
   &.Light {
-    background: #FAFAFA;
+    background: #fafafa;
   }
 }
 
@@ -1013,7 +1176,7 @@ body {
   gap: 4px;
   align-self: stretch;
   border-radius: 0px 0px 8px 8px;
-  background: var(--lighterBlack, #27272A);
+  background: var(--lighterBlack, #27272a);
 }
 
 .M_TextWithButton {
@@ -1037,6 +1200,11 @@ body {
   }
 }
 
+.A_FullScreen {
+  width: 100%;
+  object-fit: contain;
+}
+
 .A_TextMain {
   &.GuideBlock {
     display: flex;
@@ -1045,6 +1213,18 @@ body {
   }
 }
 
+.A_SocialPostCaption {
+  font: var(--caption);
+  color: var(--white04);
+}
+
+.A_H1.GuideSocial {
+  text-align: center;
+  color: var(--textPrimaryInverted);
+  background-color: var(--buttonsSecondary);
+  padding: 30px;
+  width: 100%;
+}
 .A_GuideForms {
   width: 368px;
   height: 350px;
@@ -1154,6 +1334,11 @@ body {
 }
 
 @media (max-width: 800px) {
+  .A_ButtonSmall {
+    &.Link {
+      display: none;
+    }
+  }
   .A_Video {
     height: unset;
     &.Articles {
@@ -1417,6 +1602,13 @@ body {
   width: 100%;
 }
 
+.M_SocialPost {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
 .M_FiltersHeadline {
   width: 100%;
   display: flex;
@@ -1503,7 +1695,7 @@ body {
   flex-direction: column;
   align-items: center;
   border-radius: 8px;
-  background: var(--Fill-Secondary, #27272A);
+  background: var(--Fill-Secondary, #27272a);
 }
 
 .M_GuideFont {
@@ -1649,7 +1841,7 @@ body {
   &.Sticky {
     height: max-content;
     position: sticky;
-    top: 92px;
+    top: 162px;
   }
 }
 
@@ -1671,6 +1863,11 @@ body {
   flex-direction: column;
   gap: 24px;
   width: 90%;
+}
+
+.C_SocialPosts {
+  display: flex;
+  justify-content: space-between;
 }
 
 .C_Recommendations {
@@ -1819,7 +2016,7 @@ body {
   align-items: flex-start;
   gap: 24px;
   align-self: stretch;
-  background: var(--Fill-Secondary, #27272A);
+  background: var(--Fill-Secondary, #27272a);
 }
 
 @media (max-width: 1280px) and (min-width: 800px) {
@@ -1848,6 +2045,14 @@ body {
   }
   .C_CreatorsCards {
     gap: 28px;
+  }
+
+  .C_SocialPosts {
+    flex-direction: column;
+  }
+
+  .C_AudienceCards {
+    flex-direction: column;
   }
 
   .C_VideoAuthorsGrid,
@@ -1960,6 +2165,13 @@ body {
     height: 100%;
     flex-direction: column;
   }
+}
+
+.W_PostInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
 }
 
 .W_ArticleCard {
@@ -2166,8 +2378,14 @@ body {
   align-items: center;
   top: 0;
   width: 100%;
-  z-index: 1;
+  z-index: 5;
   background-color: var(--bgColor);
+}
+
+@media (max-width: 800px) {
+  .O_Nav {
+    padding: 20px 24px 82px 24px;
+  }
 }
 
 .O_Footer {
@@ -2187,6 +2405,12 @@ body {
   align-items: center;
   padding: 0px 24px;
   margin-bottom: 40px;
+}
+.O_GuideBlock {
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 
 .O_Gallery {
@@ -2360,6 +2584,9 @@ body {
   .O_AuthorsPreview {
     height: calc(50vh - 116px);
   }
+  .O_AudienceCard {
+    width: 100%;
+  }
 }
 
 @media (max-width: 800px) {
@@ -2392,6 +2619,9 @@ body {
 @media (max-width: 414px) {
   .O_CardAuthor {
     width: 100%;
+  }
+  .O_GuideBlock {
+    padding: 20px;
   }
 }
 
