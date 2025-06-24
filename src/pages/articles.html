@@ -28,10 +28,14 @@
           <a class="A_Nav Default" href="authors.html">Авторы</a>
         </div>
       </div>
+     <div class='W_Search'>
+      <div id="root-desktop"></div>
       <a class="A_MenuButton" href="https://t.me/act_collective">
+        
         Перейти в ТГ
         <div class="Q_Arrow Up Right"></div>
       </a>
+      </div>
       <div class="A_Burger"><div class="Q_Burger"></div></div>
       <div class="W_NavMobile">
         <div class="C_Nav">
@@ -46,6 +50,7 @@
         </div>
       </div>
     </nav>
+    <div id="root-mobile"></div>
     <div class="S_MainVideoTitles">
       <video class="A_Video Articles" autoplay muted loop>
         <source>
@@ -53,10 +58,9 @@
     
       <div class="M_PreviewCard">
         <div class="A_ImagePreview"></div>
- 
-         
-            <h4 class="A_H4 Overflow">AESPA — Armageddon</h4>
-            <p class="A_TextMain">
+    
+            <h4 class="A_H4 Overflow VideoTitle">AESPA — Armageddon</h4>
+            <p class="A_TextMain VideoText">
               Этот клип — пример того, как k-pop выходит за рамки традиционного
               продакшена. aespa продолжают
             </p>
@@ -73,72 +77,7 @@
           <div class="A_Tab" data-filter="Interview">Интервью</div>
         </div>
       </div>
-      <div class="C_ArticleCards">
-        <a class="O_ArticleCard Analysis" href="error404.html">
-          <div class="M_ArticleCardImage">
-            <div class="A_ArticleCardImageTitle"></div>
-          </div>
-          <div class="W_ArticleTextName">
-            <div class="A_Badge Absolute">Разбор</div>
-            <div class="M_ArticleTextName">
-              <h4 class="A_H3">Анализ клипа AESPA — Armageddon</h4>
-              <p class="A_TextMain">
-                Этот клип — пример того, как k-pop выходит за рамки традиционного
-                продакшена. aespa продолжают строить свою метавселенную, и
-                "Armageddon" выглядит как свою метавселенную, и "Armageddon"
-                выглядит как
-              </p>
-            </div>
-          </div>
-        </a>
-        <a class="O_ArticleCard Vertical Analysis" href="articles/breakdowns/supernova.html">
-          <div class="M_ArticleCardImage">
-            <div class="A_ArticleCardImageTitle Vertical"></div>
-          </div>
-          <div class="W_ArticleTextName Vertical">
-            <div class="A_Badge">Разбор</div>
-            <div class="M_ArticleTextName">
-              <h4 class="A_H3 Overflow">Анализ клипа AESPA — Armageddon</h4>
-              <p class="A_TextMain">
-                Этот клип — пример того, как k-pop выходит за рамки традиционного
-                продакшена. aespa продолжают строить свою метавселенную, и
-                "Armageddon" выглядит как свою метавселенную, и "Armageddon"
-                выглядит как
-              </p>
-            </div>
-          </div>
-        </a>
-        <a class="O_ArticleCard Interview" href="articles/reviews/vonDutch.html">
-          <div class="M_ArticleCardImage">
-            <img src='../images/articles/reviews/vonDutch/articleCharliePreview.png' alt='' class="A_ArticleCardImageTitle" |>
-          </div>
-          <div class="W_ArticleTextName">
-            <div class="A_Badge Absolute">Разбор</div>
-            <div class="M_ArticleTextName">
-              <h4 class="A_H3 Overflow">Анализ клипа AESPA — Armageddon</h4>
-              <p class="A_TextMain">
-                Этот клип — пример того, как k-pop выходит за рамки традиционного
-                продакшена. aespa продолжают строить свою метавселенную, и
-                "Armageddon" выглядит как свою метавселенную, и "Armageddon"
-                выглядит как
-              </p>
-            </div>
-          </div>
-        </a>
-        <a class="O_ArticleCard Vertical Analysis" href="./articles/reviews/vrEffects.html">
-          <div class="M_ArticleCardImage">
-            <div class="A_ArticleCardImageTitle Vertical VR"></div>
-          </div>
-          <div class="W_ArticleTextName Vertical">
-            <div class="A_Badge">Разбор</div>
-            <div class="M_ArticleTextName">
-              <h4 class="A_H3 Overflow">Моушен-дизайн в VR</h4>
-              <p class="A_TextMain">
-                VR — это не просто «ещё один экран», это новый уровень разбитых ваз в гостиной погружения. Всё, что в обычных играх работает отлично, в VR может либо усилить эффект в 100 раз, либо отправить игрока на экспресс-курс «как не укачаться за 5 минут». Моушен-дизайн тут — не просто про «красиво двигается», а про то, как мир реагирует на игрока. Давай разберёмся, как правильно делать движение в VR, чтобы не вызывать у людей флешбеки с детских каруселей
-              </p>
-            </div>
-          </div>
-        </a>
+      <div class="C_ArticleCards" id="articleContainer">
       </div>
     </div>
     <div class="S_Footer">
@@ -158,7 +97,7 @@
           <div class="M_LinksColumn">
             <div class="A_Subtitle">Страницы</div>
             <div class="C_LinksColumn">
-              <a class="A_ButtonLink" href="error404.html">Стайлгайд</a>
+              <a class="A_ButtonLink" href="styleguide.html">Стайлгайд</a>
               <a class="A_ButtonLink" href="landing.html">Лендинг</a>
               <a class="A_ButtonLink" href="about_us.html">О нас</a>
             </div>

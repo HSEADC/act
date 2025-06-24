@@ -1,0 +1,92 @@
+[
+  {
+    "title": "Анализ клипа HIDEKI INABA — FLOW",
+    "text": "Работа FLOW — это не просто анимация, это трансовый опыт, где морфинг форм ощущается как дыхание неизвестного существа. Каждое движение неуловимо, но при этом неизбежно ведёт к новой форме — будь то жук, змей или странный микроскопический организм. ",
+    "type": "Analysis",
+    "vertical": true,
+    "badge": "Разбор",
+    "image": "../images/articles/reviews/hidekiPreview.jpg",
+    "link": "articles/reviews/flow.html"
+  },
+  {
+    "title": "Анализ клипа T69 Collapse",
+    "text": "T69 Collapse — это не просто клип, а сенсорная атака. Видео создано режиссёром Weirdcore, признанным мастером глитч-арта и визуальных искажений.",
+    "type": "Analysis",
+    "vertical": false,
+    "badge": "Разбор",
+    "image": "../images/articles/reviews/aphexTwin.jpg",
+    "link": "articles/reviews/t69_collapse.html"
+  },
+  {
+    "title": "Анализ клипа Supernova",
+    "text": "В клипе Supernova группа AESPA предстает как альтер-эго супергероинь из параллельной цифровой реальности.",
+    "type": "Analysis",
+    "vertical": false,
+    "badge": "Разбор",
+    "image": "../images/articles/reviews/supernova.jpg",
+    "link": "articles/reviews/supernova.html"
+  },
+  {
+    "title": "Разверстка для K-POP клипа",
+    "text": "Визуальный стиль современных кей-поп клипов — это не просто глянец и блеск. Это технологический арсенал, где каждый кадр продуман",
+    "type": "Analysis",
+    "vertical": true,
+    "badge": "Разбор",
+    "image": "../images/articles/reviews/ohzeon.jpg",
+    "link": "articles/reviews/ohzeon.html"
+  },
+  {
+    "title": "Анализ клипа AESPA — Armageddon",
+    "text": "Музыкальный клип aespa «Armageddon» — это визуально масштабный проект, где реальность переплетается с цифровой фантазией",
+    "type": "Analysis",
+    "vertical": false,
+    "badge": "Разбор",
+    "image": "../images/articles/reviews/armageddon.webp",
+    "link": "articles/reviews/armageddon.html"
+  },
+  {
+    "title": "Анализ клипа Girls Never Die",
+    "text": "Клип Girls Never Die от tripleS — это не просто визуальный стиль «повседневности». Это пример тонкой режиссуры и постпродакшна",
+    "type": "Analysis",
+    "vertical": false,
+    "badge": "Разбор",
+    "image": "../images/articles/reviews/girlsNeverDie.webp",
+    "link": "articles/reviews/girls_never_die.html"
+  },
+  {
+    "title": "Анализ клипа The Weeknd — Avatar",
+    "text": "«Avatar» — не просто клип, а визуальный трансцендентный опыт. Он похож скорее на абстрактную sci-fi притчу, чем на музыкальное видео в традиционном смысле.",
+    "type": "Analysis",
+    "vertical": false,
+    "badge": "Разбор",
+    "image": "../images/articles/reviews/avatar.webp",
+    "link": "articles/reviews/avatar.html"
+  },
+  {
+    "title": "Анализ клипа Wona — Go!",
+    "text": "«Go!» — это визуальный хаос в лучшем смысле слова. Клип не рассказывает историю — он пульсирует, дрожит, рассыпается и собирается вновь, как цифровая галлюцинация",
+    "type": "Analysis",
+    "vertical": true,
+    "badge": "Разбор",
+    "image": "../images/articles/reviews/go.jpg",
+    "link": "articles/reviews/go.html"
+  },
+  {
+    "title": "Анализ клипа ZEROBASEONE — Feel the POP",
+    "text": "В клипе 'Feel the POP' группа ZEROBASEONE отправляется в гипертрофированную поп-реальность",
+    "type": "Analysis",
+    "vertical": false,
+    "badge": "Разбор",
+    "image": "../images/articles/reviews/pop.webp",
+    "link": "articles/reviews/pop.html"
+  },
+  {
+    "title": "Моушен дизайн в VR",
+    "text": "VR — это не просто «ещё один экран», это новый уровень разбитых ваз в гостиной погружения",
+    "type": "Analysis",
+    "vertical": false,
+    "badge": "Разбор",
+    "image": "../images/articles/reviews/motion-vr1.jpg",
+    "link": "articles/reviews/vrEffects.html"
+  }
+]

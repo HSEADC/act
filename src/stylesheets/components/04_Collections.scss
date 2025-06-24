@@ -9,7 +9,7 @@
   &.Sticky {
     height: max-content;
     position: sticky;
-    top: 92px;
+    top: 162px;
   }
 }
 
@@ -31,6 +31,11 @@
   flex-direction: column;
   gap: 24px;
   width: 90%;
+}
+
+.C_SocialPosts {
+  display: flex;
+  justify-content: space-between;
 }
 
 .C_Recommendations {
@@ -179,7 +184,7 @@
   align-items: flex-start;
   gap: 24px;
   align-self: stretch;
-  background: var(--Fill-Secondary, #27272A);
+  background: var(--Fill-Secondary, #27272a);
 }
 
 @media (max-width: 1280px) and (min-width: 800px) {
@@ -208,6 +213,14 @@
   }
   .C_CreatorsCards {
     gap: 28px;
+  }
+
+  .C_SocialPosts {
+    flex-direction: column;
+  }
+
+  .C_AudienceCards {
+    flex-direction: column;
   }
 
   .C_VideoAuthorsGrid,

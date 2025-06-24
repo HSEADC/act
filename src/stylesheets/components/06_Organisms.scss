@@ -6,8 +6,14 @@
   align-items: center;
   top: 0;
   width: 100%;
-  z-index: 1;
+  z-index: 5;
   background-color: var(--bgColor);
+}
+
+@media (max-width: 800px) {
+  .O_Nav {
+    padding: 20px 24px 82px 24px;
+  }
 }
 
 .O_Footer {
@@ -27,6 +33,12 @@
   align-items: center;
   padding: 0px 24px;
   margin-bottom: 40px;
+}
+.O_GuideBlock {
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 
 .O_Gallery {
@@ -200,6 +212,9 @@
   .O_AuthorsPreview {
     height: calc(50vh - 116px);
   }
+  .O_AudienceCard {
+    width: 100%;
+  }
 }
 
 @media (max-width: 800px) {
@@ -232,5 +247,8 @@
 @media (max-width: 414px) {
   .O_CardAuthor {
     width: 100%;
+  }
+  .O_GuideBlock {
+    padding: 20px;
   }
 }

@@ -301,7 +301,6 @@ body {
   background-color: lightgray;
   color: grey;
   cursor: default;
-
 }
 .Q_Arrow {
   width: 16px;
@@ -624,7 +623,6 @@ body {
 }
 
 .A_ArticleCardImageTitle {
-  background-image: url(images/8d33354d8524749c90ad.png);
   aspect-ratio: 16 / 9;
   background-position: center;
   background-size: cover;
@@ -632,9 +630,6 @@ body {
     aspect-ratio: 9 / 16;
     width: 100%;
     height: 100%;
-  }
-  &.VR {
-    background-image: url(images/540f869fdd8cce0263ca.jpg);
   }
 }
 
@@ -764,7 +759,6 @@ body {
   color: var(--white08);
   &.Center {
     text-align: center;
-
   }
   &.Secondary {
     width: 120px;
@@ -956,27 +950,27 @@ body {
   flex: 1 0 0;
   border-radius: 8px;
   &.FirstLogo {
-    background: #27272A;
+    background: #27272a;
     background-image: url(images/630d72576904022940e5.png);
   }
   &.SecondLogo {
-    background: #27272A;
+    background: #27272a;
     background-image: url(images/9a3ab89aec4501db0ca1.png);
   }
   &.ThirdLogo {
-    background: #27272A;
+    background: #27272a;
     background-image: url(images/f916793c0c94d4cff81d.png);
   }
   &.FourthLogo {
-    background: #F576F5;
+    background: #f576f5;
     background-image: url(images/9a026e0ef0674f74766a.png);
   }
   &.FifthLogo {
-    background: #E7FE7B;
+    background: #e7fe7b;
     background-image: url(images/429a5156029228b5463c.png);
   }
   &.SixthLogo {
-    background: #FAFAFA;
+    background: #fafafa;
     background-image: url(images/8541d8eeb05a5ff0ba12.png);
   }
 }
@@ -986,22 +980,22 @@ body {
   align-self: stretch;
   border-radius: 8px 8px 0px 0px;
   &.Pink {
-    background: var(--magenta, #EB0EEB);
+    background: var(--magenta, #eb0eeb);
   }
   &.PinkL {
-    background: #F576F5;
+    background: #f576f5;
   }
   &.Green {
-    background: #D4FD0E;
+    background: #d4fd0e;
   }
   &.GreenL {
-    background: #E7FE7B;
+    background: #e7fe7b;
   }
   &.Dark {
-    background: #27272A;
+    background: #27272a;
   }
   &.Light {
-    background: #FAFAFA;
+    background: #fafafa;
   }
 }
 
@@ -1013,7 +1007,7 @@ body {
   gap: 4px;
   align-self: stretch;
   border-radius: 0px 0px 8px 8px;
-  background: var(--lighterBlack, #27272A);
+  background: var(--lighterBlack, #27272a);
 }
 
 .M_TextWithButton {
@@ -1503,7 +1497,7 @@ body {
   flex-direction: column;
   align-items: center;
   border-radius: 8px;
-  background: var(--Fill-Secondary, #27272A);
+  background: var(--Fill-Secondary, #27272a);
 }
 
 .M_GuideFont {
@@ -1819,7 +1813,7 @@ body {
   align-items: flex-start;
   gap: 24px;
   align-self: stretch;
-  background: var(--Fill-Secondary, #27272A);
+  background: var(--Fill-Secondary, #27272a);
 }
 
 @media (max-width: 1280px) and (min-width: 800px) {
@@ -2517,5 +2511,3 @@ body {
     row-gap: 40px;
   }
 }
-
-
