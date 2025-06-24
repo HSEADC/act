@@ -37,12 +37,147 @@ body {
 
 .O_Search {
   display: flex;
-  margin: 50px auto;
   align-items: center;
-  gap: 10px;
-  max-width: 30%;
+  gap: 4px;
+  flex-direction: column;
+  &.Is-Active {
+    width: 40vw;
+  }
 }
 
+#root-mobile {
+  position: fixed;
+  margin-bottom: 24px;
+  width: 100%;
+  z-index: 5;
+  top: 90px;
+  padding: 0 20px;
+}
+
+.C_AudienceCards {
+  justify-content: space-between;
+  gap: 12px;
+  display: flex;
+}
+
+.O_AudienceCard {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 33%;
+  border-radius: 4px;
+  background-color: var(--lighterBlack);
+  padding: 16px;
+}
+
+.C_AudienceList {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.A_AudienceType {
+  font: var(--bodyLarge);
+  color: var(--textPrimary);
+}
+
+.A_AudienceMark {
+  color: var(--white04);
+}
+.A_AudienceTitle {
+  font: var(--menu);
+  color: var(--textPrimary);
+}
+
+input {
+  all: unset;
+  color: var(--textPrimary);
+  font: var(--menu);
+  width: 100%;
+
+  &:focus {
+    border: none;
+    box-shadow: none;
+    outline: none;
+  }
+}
+
+.O_Search > .O_SeachField {
+  padding: 0px 8px 0px 8px;
+}
+
+.O_Search.Is-Active > .O_SearchField {
+  padding: 0px 0px 0px 12px;
+}
+
+.O_SearchField {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  border-radius: 4px;
+  background: var(--lighterBlack);
+}
+
+.A_SearchMessage {
+  text-wrap: balance;
+  font: var(--menu);
+  color: var(--white04);
+}
+.A_SearchImg {
+  object-fit: cover;
+  width: 50px;
+  aspect-ratio: 1;
+  border-radius: 4px;
+}
+
+.Q_IconArrow,
+.Q_Search {
+  width: 18px;
+  aspect-ratio: 1;
+}
+
+.Q_IconArrow {
+  width: 16px;
+  aspect-ratio: 1;
+}
+.W_SearchDropdown {
+  width: 100%;
+  border-radius: 4px;
+  padding: 12px;
+  background: var(--lighterBlack);
+}
+
+.A_SearchDivider {
+  width: 100%;
+  height: 2px;
+  background-color: var(--white01);
+}
+
+.A_SearchTitle {
+  font: var(--bodyLarge);
+  color: var(--textPrimary);
+}
+
+.A_SearchType {
+  font: var(--bodyMain);
+  color: var(--white04);
+}
+
+.M_SearchItem {
+  width: 100%;
+  gap: 16px;
+  align-items: center;
+  padding: 12px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.W_SearchItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
 .A_SearchInput {
   border: 1px solid black;
   border-radius: 10px;
@@ -52,24 +187,42 @@ body {
   padding: 1px 8px;
 }
 
-&:focus {
-  border-color: inherit;
-  box-shadow: none;
-  outline: none;
+.M_SearchInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
 }
 
-.A_SearchButton {
-  padding: 16px 16px;
-  background-color: black;
-  border-radius: 8px;
-  color: white;
-  cursor: pointer;
-  user-select: none;
+.W_Search {
+  position: absolute;
+  top: 20px;
+  right: 24px;
+  gap: 12px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
 }
 
-&.disable {
-  background-color: lightgray;
-  color: grey;
-  cursor: default;
+@media (max-width: 800px) {
+  body {
+    padding-top: 156px;
+  }
+  .Q_Search {
+    width: 28px;
+  }
 
+  .Q_IconArrow {
+    width: 24px;
+  }
+
+  .O_Search.Is-Active {
+    width: 100%;
+  }
+  .O_SearchField,
+  .O_Search.Is-Active > .O_SearchField {
+    padding: 0px 0px 0px 16px;
+  }
+  .W_SearchDropdown {
+    padding: 16px;
+  }
 }

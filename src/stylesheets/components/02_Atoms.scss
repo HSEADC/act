@@ -53,7 +53,7 @@
   display: flex;
   border-radius: 4px;
   justify-content: center;
-  margin-top: 16px;
+
   align-items: center;
   gap: 4px;
   cursor: pointer;
@@ -173,13 +173,11 @@
     width: 100%;
     height: 100%;
   }
-  &.VR {
-    background-image: url('../../images/articles/reviews/vonDutch/motion-design-in-vr--when-your-movements-are-a-gam.jpg');
-  }
 }
 
 .O_ArticleCard > .M_ArticleCardImage > .A_ArticleCardImageTitle {
   width: 100%;
+  object-fit: cover;
 }
 
 .A_ImagePreview {
@@ -304,7 +302,6 @@
   color: var(--white08);
   &.Center {
     text-align: center;
-
   }
   &.Secondary {
     width: 120px;
@@ -342,10 +339,14 @@
 }
 
 .A_ButtonSmall {
+  box-shadow: none;
+  outline: none;
+  border: none;
   padding: 12px 35px;
   background-color: var(--bgColor);
   color: var(--textPrimary);
   font: var(--menu);
+  cursor: pointer;
   display: flex;
   justify-content: center;
   width: max-content;
@@ -354,6 +355,14 @@
   &.Green {
     background: var(--buttonsSecondary);
     color: var(--textPrimaryInverted);
+  }
+  &.Search {
+    display: flex;
+    gap: 10px;
+    background: none;
+    padding: 8px 10px;
+    align-items: flex-end;
+    color: var(--textIcons);
   }
 }
 
@@ -496,27 +505,27 @@
   flex: 1 0 0;
   border-radius: 8px;
   &.FirstLogo {
-    background: #27272A;
+    background: #27272a;
     background-image: url('../../images/styleguide/FirstLogo.png');
   }
   &.SecondLogo {
-    background: #27272A;
+    background: #27272a;
     background-image: url('../../images/styleguide/SecondLogo.png');
   }
   &.ThirdLogo {
-    background: #27272A;
+    background: #27272a;
     background-image: url('../../images/styleguide/ThirdLogo.png');
   }
   &.FourthLogo {
-    background: #F576F5;
+    background: #f576f5;
     background-image: url('../../images/styleguide/FourthLogo.png');
   }
   &.FifthLogo {
-    background: #E7FE7B;
+    background: #e7fe7b;
     background-image: url('../../images/styleguide/FifthLogo.png');
   }
   &.SixthLogo {
-    background: #FAFAFA;
+    background: #fafafa;
     background-image: url('../../images/styleguide/SixthLogo.png');
   }
 }
@@ -526,22 +535,22 @@
   align-self: stretch;
   border-radius: 8px 8px 0px 0px;
   &.Pink {
-    background: var(--magenta, #EB0EEB);
+    background: var(--magenta, #eb0eeb);
   }
   &.PinkL {
-    background: #F576F5;
+    background: #f576f5;
   }
   &.Green {
-    background: #D4FD0E;
+    background: #d4fd0e;
   }
   &.GreenL {
-    background: #E7FE7B;
+    background: #e7fe7b;
   }
   &.Dark {
-    background: #27272A;
+    background: #27272a;
   }
   &.Light {
-    background: #FAFAFA;
+    background: #fafafa;
   }
 }
 
@@ -553,7 +562,7 @@
   gap: 4px;
   align-self: stretch;
   border-radius: 0px 0px 8px 8px;
-  background: var(--lighterBlack, #27272A);
+  background: var(--lighterBlack, #27272a);
 }
 
 .M_TextWithButton {
@@ -577,6 +586,11 @@
   }
 }
 
+.A_FullScreen {
+  width: 100%;
+  object-fit: contain;
+}
+
 .A_TextMain {
   &.GuideBlock {
     display: flex;
@@ -585,6 +599,18 @@
   }
 }
 
+.A_SocialPostCaption {
+  font: var(--caption);
+  color: var(--white04);
+}
+
+.A_H1.GuideSocial {
+  text-align: center;
+  color: var(--textPrimaryInverted);
+  background-color: var(--buttonsSecondary);
+  padding: 30px;
+  width: 100%;
+}
 .A_GuideForms {
   width: 368px;
   height: 350px;
@@ -694,6 +720,11 @@
 }
 
 @media (max-width: 800px) {
+  .A_ButtonSmall {
+    &.Link {
+      display: none;
+    }
+  }
   .A_Video {
     height: unset;
     &.Articles {
